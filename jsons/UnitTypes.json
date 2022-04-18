@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+	{
+        "name": "Militia",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    }
+    {
+        "name": "Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Cavalry",
+        "movementType": "Land"
+		"uniques": ["Can move after attacking"]
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Flying",
+        "movementType": "Land"
+		"uniques": ["Can pass through impassable tiles","All tiles costs 1"]
+    },
+    {
+        "name": "Support",
+        "movementType": "Land"
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Interceptor",
+        "movementType": "Water",
+		"uniques": []
+    },
+    {
+        "name": "Frigate",
+        "movementType": "Water"
+		"uniques": []
+    },
+    {
+        "name": "Submersible",
+        "movementType": "Water",
+        "uniques": []
+    },
+    {
+        "name": "Juggernaut",
+        "movementType": "Water"
+    },
+]
