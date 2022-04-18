@@ -29,3 +29,7 @@ Use for strategic resources by adding them to building requirements.
 ##### Rock Spike: Ice by Tommy Suhartomo from NounProject.com https://thenounproject.com/icon/ice-3946171/
 
 ##### Sunken Ruins: Flooded Bank by Till Teenck from NounProject.com https://thenounproject.com/icon/flooded-bank-156931/
+
+##### Scorched wildlands: Bare Trees by Marie Van den Broeck from NounProject.com https://thenounproject.com/icon/bare-trees-264528/
+
+##### Lava Swirl: Lava Flow by Hayashi Fumihiro from NounProject.com https://thenounproject.com/icon/lava-flow-79093/
