@@ -12,6 +12,8 @@ Policy trees are incomplete.
 
 Unit cost & balance will need an overhaul.
 
+Use for strategic resources by adding them to building requirements.
+
 ### Image Credits
 
 ##### Faction Images: Extracted from Endless Legend
