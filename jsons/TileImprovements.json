@@ -166,7 +166,7 @@
 	},
 	{
 		"name": "Citadel",
-		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders"],
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage","Can be built just outside your borders"],
         "civilopediaText": [{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}]
 	},
 
@@ -184,7 +184,7 @@
 			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City Center]",
 			"[+1 Culture] for each adjacent [City Ruin]",
-			"[+2 Science] for each adjacent [Great Improvement]",
+			"[+2 Science] for each adjacent [Great Improvement]"
 			]
 	}
 
