@@ -98,7 +98,7 @@
 	"improvement": "Alchemist's Furnace",
 	"improvementStats": {"production": 1},
 	"uniques":
-		["Guaranteed with Strategic Balance resource option",
+		["Guaranteed with Strategic Balance resource option"
 		],
 	"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
@@ -112,7 +112,7 @@
 	"improvement": "Alchemist's Furnace",
 	"improvementStats": {"production": 1},
 	"uniques":[
-		"Guaranteed with Strategic Balance resource option",
+		"Guaranteed with Strategic Balance resource option"
 		],
 	"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
