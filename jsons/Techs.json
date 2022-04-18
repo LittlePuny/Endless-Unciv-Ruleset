@@ -1,0 +1,828 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Age of Discovery",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Age of Discovery",
+				"row": 6,
+				"quote": "",
+				"uniques": ["Starting tech","Enables Open Borders agreements"]
+			}
+		]	
+	},
+	
+	{
+		"columnNumber": 1,
+		"era": "Age of Discovery",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Cultivation",
+				"row": 2,
+				"prerequisites": ["Age of Discovery"],
+				"quote": "Increasing sophistication in farming has led to the study and development of plant and animal species specifically for the consumption of your citizens."
+				"uniques": ["Gain a free [TPA1] [in capital]"]
+			},
+			{
+				"name": "Aquapulvistics",
+				"row": 3,
+				"prerequisites": ["Age of Discovery"],
+				"quote": "Improved quality of critical parts for mills increases the amount of industry produced."
+				"uniques": ["Gain a free [TPA2] [in capital]"]
+			},
+			{
+				"name": "Empire Mint",
+				"row": 4,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA3] [in capital]"]
+			},
+			{
+				"name": "Open-pit Mine",
+				"row": 5,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA4] [in capital]"]
+			},
+		
+			{
+				"name": "Public Library",
+				"row": 7,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA5] [in capital]"]
+			},
+			{
+				"name": "Topography",
+				"row": 8,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA6] [in capital]"]
+			},
+			{
+				"name": "Mill Foundry",
+				"row": 9,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA8] [in capital]"]
+			},
+			{
+				"name": "Alchemist's Furnace",
+				"row": 10,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA7] [in capital]"]
+			},
+			{
+				"name": "Advanced Alloys",
+				"row": 11,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA9] [in capital]"]
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 2,
+		"era": "Age of Discovery",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sewer System",
+				"row": 2,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA10] [in capital]"]
+			},
+			{
+				"name": "Language Square",
+				"row": 3,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": [ "Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.", "Gain a free [TPA11] [in capital]"]
+			},
+			{
+				"name": "Glory of Empire",
+				"row": 4,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA12] [in capital]"]
+			},
+			{
+				"name": "Imperial Highways",
+				"row": 5,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA13] [in capital]","Roads connect tiles across rivers"]
+			},
+			
+			{
+				"name": "Boarding Vessel",
+				"row": 7,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA14] [in capital]"]
+			},
+			{
+				"name": "Mercenary Market",
+				"row": 8,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([500])","Gain a free [TPA15] [in capital]"]
+			},
+			{
+				"name": "Military Science",
+				"row": 9,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA16] [in capital]"]
+			},
+			{
+				"name": "National Forces",
+				"row": 10,
+				"prerequisites": ["Age of Discovery"],
+				"quote": ""
+				"uniques": ["Gain a free [TPA17] [in capital]"]
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 3,
+		"era": "Age of Glory",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Age of Glory",
+				"row": 6,
+				"prerequisites": ["Age of Discovery"],
+				"quote": "",
+				"uniques": ["Only available <if [Age of Glory Unlock] is constructed>"
+					"[All] units gain the [New Age Buffs I] promotion","[-10]% Production when constructing [Military] units [in all cities]"]
+			}
+		]	
+	}
+	
+		{
+		"columnNumber": 4,
+		"era": "Age of Glory",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Public Granary",
+				"row": 2,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB1] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Aquacultural Science",
+				"row": 3,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB2] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Imperial Coinage",
+				"row": 4,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Enables conversion of city production to gold","Gain a free [TPB3] [in capital]"],
+				"quote": ""
+			},
+			{
+				"name": "Prisoners, Slaves and Volunteers",
+				"row": 5,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["[Gold] cost of purchasing items in cities [-20]%","Gain a free [TPB4] [in capital]"]
+				"quote": ""
+			},
+		
+			{
+				"name": "Alchemy Workshop",
+				"row": 7,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB5] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Management Science",
+				"row": 8,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB6] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Hydrology",
+				"row": 9,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB7] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Alchemical Alloys",
+				"row": 10,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB8] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Unskilled Labour",
+				"row": 11,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB17] [in capital]"]
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 5,
+		"era": "Age of Glory",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Central Market",
+				"row": 2,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB9] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Native District",
+				"row": 3,
+				"prerequisites": ["Age of Glory"],
+				"quote": ""
+				"uniques": ["Gain a free [AP1] [in capital]"]
+				"uniques": ["Gain a free [TPB10] [in capital]"]
+			},
+			{
+				"name": "Diplomat's Manse",
+				"row": 4,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Enables Research agreements","Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Gain a free [TPB11] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Shipyard",
+				"row": 5,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Enables embarkation for land units","Enables [Embarked] units to enter ocean tiles","Gain a free [TPB12] [in capital]"]
+				"quote": ""
+				
+			},
+			
+			{
+				"name": "Fireship",
+				"row": 7,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB13] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Meritocratic Promotions",
+				"row": 8,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB14] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Citizen Armies",
+				"row": 9,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB15] [in capital]"]
+				"quote": ""
+			},
+			{
+				"name": "Elite Forces",
+				"row": 10,
+				"prerequisites": ["Age of Glory"],
+				"uniques": ["Gain a free [TPB16] [in capital]"]
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 6,
+		"era": "Age of Enlightenment",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Age of Enlightenment",
+				"row": 6,
+				"prerequisites": ["Age of Glory"],
+				"quote": "",
+				"uniques": ["Only available <if [Age of Enlightenment Unlock] is constructed>",
+				"[All] units gain the [New Age Buffs II] promotion","[-10]% Production when constructing [Military] units [in all cities]"]
+			}
+		]	
+	}
+	
+	{
+		"columnNumber": 7,
+		"era": "Age of Enlightenment",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Plow Factory",
+				"row": 2,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Dust Refinery",
+				"row": 3,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Dust Alchemy",
+				"row": 4,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Reaping Station",
+				"row": 5,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			
+			{
+				"name": "Statistical Methods",
+				"row": 7,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Fluid Biomechanics",
+				"row": 8,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Smelting Station"
+				"row": 9,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Uncommon Alloys"
+				"row": 10,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 8,
+		"era": "Age of Enlightenment",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Bread and Circuses",
+				"row": 2,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Public Works",
+				"row": 3,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Highway Outposts",
+				"row": 4,
+				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": ""
+			},
+			{
+				"name": "Bathysphere",
+				"row": 5,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			
+			{
+				"name": "Artillery Ship",
+				"row": 7,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Unexpected Allies",
+				"row": 8,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Borough Government"
+				"row": 9,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Scyther"
+				"row": 10,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Guardian of Dust"
+				"row": 11,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 9,
+		"era": "Age of Industry",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Age of Industry",
+				"row": 6,
+				"prerequisites": ["Age of Enlightenment"],
+				"quote": "",
+				"uniques": ["Only available <if [Age of Industry Unlock] is constructed>",
+				"[All] units gain the [New Age Buffs III] promotion","[-10]% Production when constructing [Military] units [in all cities]"]
+			}
+		]	
+	}
+	
+	{
+		"columnNumber": 10,
+		"era": "Age of Industry",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Nutrition Chemistry",
+				"row": 2,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Isolation Sciences",
+				"row": 3,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Advanced Harvester",
+				"row": 4,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Anaerobic Microbiology",
+				"row": 5,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			
+			{
+				"name": "Imperial Funding",
+				"row": 7,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Industrial Processing",
+				"row": 8,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Borer's Guild"
+				"row": 9,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Rare Metal Foundry"
+				"row": 10,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Rare Alloys"
+				"row": 11,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 11,
+		"era": "Age of Industry",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Hospitality Den",
+				"row": 2,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Cultural Indocrination",
+				"row": 3,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+				"uniques": ["Gain a free [AP2] [in capital]"]
+			},
+			{
+				"name": "Endless Mechanisms",
+				"row": 4,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Cargo Docks",
+				"row": 5,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			
+			{
+				"name": "Signal Corps",
+				"row": 7,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Civic Industries",
+				"row": 8,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Mercenary Corps"
+				"row": 9,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Brigade System"
+				"row": 10,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Guardian of Earth"
+				"row": 11,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+			{
+				"name": "Guardian of Fire"
+				"row": 12,
+				"prerequisites": ["Age of Industry"],
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 12,
+		"era": "Age of Heroes",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Age of Heroes",
+				"row": 6,
+				"prerequisites": ["Age of Industry"],
+				"quote": "",
+				"uniques": ["Only available <if [Age of Heroes Unlock] is constructed>",
+				"[All] units gain the [New Age Buffs IV] promotion","[-10]% Production when constructing [Military] units [in all cities]"]
+			}
+		]	
+	}
+	
+	{
+		"columnNumber": 13,
+		"era": "Age of Heroes",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Improved Dust Alchemies",
+				"row": 2,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Town Criers",
+				"row": 3,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Imperial News Network",
+				"row": 4,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Dust Enhanced Buildings",
+				"row": 5,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			
+			{
+				"name": "Scientific Specialization",
+				"row": 7,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Advanced Quary",
+				"row": 8,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Volcanic Leecher"
+				"row": 9,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Marvelous Alloys"
+				"row": 10,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 14,
+		"era": "Age of Heroes",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "State-Approved Theather",
+				"row": 2,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Modernized Administrator",
+				"row": 3,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Arts Council",
+				"row": 4,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Enlightened Trade",
+				"row": 5,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			
+			{
+				"name": "Military Reserve",
+				"row": 7,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Innoculation Station",
+				"row": 8,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Security Theory"
+				"row": 9,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Guardian of Air"
+				"row": 10,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+			{
+				"name": "Guardian of Water"
+				"row": 11,
+				"prerequisites": ["Age of Heroes"],
+				"quote": ""
+			},
+		]	
+	}
+	
+	{
+		"columnNumber": 15,
+		"era": "End of Ages",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "End of Ages",
+				"row": 6,
+				"prerequisites": ["Age of Heroes"],
+				"quote": "",
+				"uniques": ["Only available <if [End of Ages Unlock] is constructed>",
+				"[All] units gain the [New Age Buffs V] promotion","[-10]% Production when constructing [Military] units [in all cities]"]
+			}
+		]	
+	}
+	
+	{
+		"columnNumber": 16,
+		"era": "End of Ages",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Self Driving Plows",
+				"row": 1,
+				"prerequisites": ["End of Ages"],
+				"quote": ""
+				"uniques": ["[+100]% growth [in all cities]"]
+			},
+			{
+				"name": "Dust-Driven Distillery",
+				"row": 3,
+				"prerequisites": ["End of Ages"],
+				"quote": ""
+				"uniques": ["[+50]% [Gold]"]
+			},
+			{
+				"name": "Difference Engine",
+				"row": 5,
+				"prerequisites": ["End of Ages"],
+				"quote": ""
+				"uniques": ["[+50]% [Science]"]
+			},
+			{
+				"name": "Endless Alloys",
+				"row": 7,
+				"prerequisites": ["End of Ages"],
+				"quote": ""
+				"uniques": ["[+50]% [Production]"]
+			},
+			{
+				"name": "United Empires Council",
+				"row": 9,
+				"prerequisites": ["End of Ages"],
+				"quote": ""
+				"uniques": ["[+50]% [Culture]"]
+			},
+			{
+				"name": "Serum of Iteru",
+				"row": 11,
+				"prerequisites": ["End of Ages"],
+				"quote": ""
+				"uniques": ["[+50]% Strength"]
+			},
+		]	
+	}
+]
