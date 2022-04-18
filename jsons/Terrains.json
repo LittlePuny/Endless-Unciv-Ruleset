@@ -9,7 +9,7 @@
 	"RGB": [45,108,145]
 	"uniques":[
 		"Becomes [Kelp Forest] when adjacent to [Kelp Forest Core]",
-		"Becomes [Perpetual Storm] when adjacent to [Perpetual Storm Core]",
+		"Becomes [Perpetual Storm] when adjacent to [Perpetual Storm Core]"
 		]
 },
 
@@ -21,7 +21,7 @@
 	"RGB": [107,167,193],
 	"uniques":[
 		"[+2] to Fertility for Map Generation",
-		"Considered [Desirable] when determining start locations <on water maps>",
+		"Considered [Desirable] when determining start locations <on water maps>"
 	]
 },
 
@@ -39,7 +39,7 @@
 		"Occurs at temperature between [-0.2] and [1] and humidity between [0.7] and [0.8]",
 		"Occurs at temperature between [-0.1] and [1] and humidity between [0.8] and [0.9]",
 		"Occurs at temperature between [0] and [1] and humidity between [0.9] and [1]",
-		"[+4] to Fertility for Map Generation",
+		"[+4] to Fertility for Map Generation"
 	]
 },
 
@@ -60,8 +60,7 @@
 		"Occurs at temperature between [-0.5] and [-0.3] and humidity between [0.6] and [0.7]",
 		"Occurs at temperature between [0.9] and [1] and humidity between [0.6] and [0.7]",
 		"Occurs at temperature between [-0.3] and [-0.2] and humidity between [0.7] and [0.8]",
-		"[+2] to Fertility for Map Generation",
-
+		"[+2] to Fertility for Map Generation"
 	]
 },
 
@@ -80,7 +79,7 @@
 		"Occurs at temperature between [-0.7] and [-0.3] and humidity between [0.7] and [0.8]",
 		"Occurs at temperature between [-0.6] and [-0.1] and humidity between [0.8] and [0.9]",
 		"Occurs at temperature between [-0.4] and [0] and humidity between [0.9] and [1]",
-		"[+2] to Fertility for Map Generation",
+		"[+2] to Fertility for Map Generation"
 	]
 },
 
@@ -95,7 +94,7 @@
 		"Occurs at temperature between [0.6] and [1] and humidity between [0.1] and [0.2]",
 		"Occurs at temperature between [0.5] and [1] and humidity between [0.2] and [0.3]",
 		"Occurs at temperature between [0.8] and [1] and humidity between [0.3] and [0.4]",
-		"Occurs at temperature between [0.9] and [1] and humidity between [0.4] and [0.5]",
+		"Occurs at temperature between [0.9] and [1] and humidity between [0.4] and [0.5]"
 	]
 },
 
@@ -110,7 +109,7 @@
 		"Occurs at temperature between [-0.9] and [0.5] and humidity between [0.1] and [0.2]",
 		"Occurs at temperature between [0.4] and [0.6] and humidity between [0.2] and [0.3]",
 		"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0.2] and [0.3]",
-		"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+		"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]"
 	]
 },
 
@@ -125,7 +124,7 @@
 		"Occurs at temperature between [-1] and [-0.8] and humidity between [0.6] and [0.7]",
 		"Occurs at temperature between [-1] and [-0.7] and humidity between [0.7] and [0.8]",
 		"Occurs at temperature between [-1] and [-0.6] and humidity between [0.8] and [0.9]",
-		"Occurs at temperature between [-1] and [-0.4] and humidity between [0.9] and [1]",
+		"Occurs at temperature between [-1] and [-0.4] and humidity between [0.9] and [1]"
 	]
 },
 
@@ -202,7 +201,7 @@
 		"Has an elevation of [2] for visibility calculations",
 		"[+1] to Fertility for Map Generation",
 		"Base Terrain on this tile is not counted for Region determination",
-		"Occurs in groups around high elevations",
+		"Occurs in groups around high elevations"
 	]
 },
 
@@ -217,7 +216,7 @@
 	"uniques":[
 		"Rough terrain",
 		"Blocks line-of-sight from tiles at same elevation",
-		"[+2] to Fertility for Map Generation",
+		"[+2] to Fertility for Map Generation"
 	]
 },
 
@@ -232,7 +231,7 @@
 	"uniques":[
 		"Rough terrain",
 		"Blocks line-of-sight from tiles at same elevation",
-		"[+2] to Fertility for Map Generation",
+		"[+2] to Fertility for Map Generation"
 	]
 },
 
@@ -248,7 +247,7 @@
 		"Rough terrain",
 		"Blocks line-of-sight from tiles at same elevation",
 		"[+2] to Fertility for Map Generation",
-		"Rare feature",
+		"Rare feature"
 	]
 },
 
@@ -262,7 +261,7 @@
 	"uniques":[
 		"Rare feature",
 		"Rough terrain",
-		"Blocks line-of-sight from tiles at same elevation",
+		"Blocks line-of-sight from tiles at same elevation"
 	]
 },
 
@@ -276,7 +275,7 @@
 	"uniques":[
 		"Rare feature",
 		"Rough terrain",
-		"Blocks line-of-sight from tiles at same elevation",
+		"Blocks line-of-sight from tiles at same elevation"
 	]
 },
 
@@ -288,7 +287,7 @@
 	"occursOn": ["Desert"],
 	"uniques":[
 		"Fresh water", "Rare feature",
-		"Always Fertility [4] for Map Generation",
+		"Always Fertility [4] for Map Generation"
 	]
 },
 
@@ -323,7 +322,7 @@
 	"occursOn": ["Ocean"],
 	"uniques": [
 		"Rare feature",
-		"Must be adjacent to [6] [Water] tiles",
+		"Must be adjacent to [6] [Water] tiles"
 	]
 },
 {
@@ -334,7 +333,7 @@
 	"occursOn": ["Ocean"],
 	"uniques": [
 		"Rare feature",
-		"Must be adjacent to [6] [Water] tiles",
+		"Must be adjacent to [6] [Water] tiles"
 	]
 },
 
@@ -349,7 +348,7 @@
 		"Rough terrain",
 		"Units ending their turn on this terrain take [10] damage",
 		"Blocks line-of-sight from tiles at same elevation",
-		"Must be adjacent to [6] [Water] tiles",
+		"Must be adjacent to [6] [Water] tiles"
 	]
 }, 
 {
@@ -363,7 +362,7 @@
 		"Rough terrain",
 		"Units ending their turn on this terrain take [10] damage",
 		"Blocks line-of-sight from tiles at same elevation",
-		"Must be adjacent to [6] [Water] tiles",
+		"Must be adjacent to [6] [Water] tiles"
 	]
 },
 
@@ -377,7 +376,7 @@
 	"uniques": [
 		"Rare feature",
 		"Rough terrain",
-		"Must be adjacent to [1] to [6] [Coast] tiles",
+		"Must be adjacent to [1] to [6] [Coast] tiles"
 	]
 },
 
@@ -415,7 +414,7 @@
 		"uniques": [
 			"Tile provides yield without assigned population"
 			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles"
 			],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -431,7 +430,7 @@
 		"uniques": [
 			"Tile provides yield without assigned population"
 			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles"
 			],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -446,7 +445,7 @@
 		"uniques": [
 			"Tile provides yield without assigned population"
 			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles"
 			],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -462,7 +461,7 @@
 		"uniques": [
 			"Tile provides yield without assigned population"
 			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles"
 			],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -478,7 +477,7 @@
 		"uniques": [
 			"Tile provides yield without assigned population"
 			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles"
 			],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -494,7 +493,7 @@
 		"uniques": [
 			"Tile provides yield without assigned population"
 			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles"
 			],
 		"turnsInto": "Coast",
 		"impassable": true,
