@@ -75,7 +75,7 @@
 		"outerColor": [0,0,102],
 		"innerColor": [102,178,255],
 		"uniqueName": "Appetite for Dust",
-		"uniqueText": "Can't produce food from any source and can't naturally grow population.\n Doesn't suffer starvation and can produce or buy population.\n +1 Gold from tiles naturaly producing Gold.\n Starts with Empire Mint.\n Starts with Alchemist's Furnace",
+		"uniqueText": "Can't produce food from any source and can't naturally grow population\n Doesn't suffer starvation and can produce or buy population\n +1 Gold from tiles naturaly producing Gold\n Starts with Empire Mint\n Starts with Alchemist's Furnace",
 		"uniques": [
 			"Nullifies Growth [in all cities]",
 			"[+1 Gold] from every [Desert]",
@@ -116,10 +116,15 @@
 		"outerColor": [25,25,51],
 		"innerColor": [255,128,0],
 		"uniqueName": "Holy Resources",
+		"uniqueText": "Quantity of strategic resources produced by empire +50% \n Can Build a Holy Resource Building in cities \n +1 Science from tiles naturally producing Science \n Land units gain the Portal User promotion \n Starts with Alchemist's Furnace \n Starts with Topography",
 		"uniques": [
-			"[+1 Production] from every [Strategic resource]"
-			"[+1 Science] from every [Strategic resource]"
-			"[Land] units gain the [Portal User] promotion"
+			"Quantity of strategic resources produced by the empire +[50]%",
+			"[+1 Science] from every [Snow]",
+			"[+1 Science] from every [Dirt Field]",
+			"[+1 Science] from every [Tundra]",
+			"[+1 Science] from every [Fallout]",
+			"[+1 Science] from every [Marsh]",
+			"[Land] units gain the [Portal User] promotion",
 			"Starts with [Alchemist's Furnace]","Starts with [Topography]"
 			],
 		"cities": ["Budakai", "Strard", "Trode", "Aldodev", "Perusk", "Glandeh", "Beloch", "Histrel", "Elmchaia", "Euste", "Skaeen", "Byaegol", "Lyeess", "Frytta", "Therrat", "Aldodev", "Aranak", "Warlaf", "Ildlyea", "Murynlar", "Lingain", "Sayap", "Erril", "Lorw", "Oddenda", "Reyjis", "Horlaken", "Delard",]
@@ -175,11 +180,6 @@
 		"uniqueName": "Power Through Pain",
 		"uniqueText": "Gain a free Great Person of your choice when you advance through ages.\n Your Great Improvements gain extra yields based on adjacent improvements.\n +20% Strength within 2 tiles of a Great Improvement. \n Starts with Public Library.\n Starts with Open-pit Mine",
 		"uniques": [
-			"Free Great Person <upon discovering [Age of Glory]>"
-			"Free Great Person <upon discovering [Age of Enlightenment]>"
-			"Free Great Person <upon discovering [Age of Industry]>"
-			"Free Great Person <upon discovering [Age of Heroes]>"
-			"Free Great Person <upon discovering [End of Ages]>"
 			"[+20]% Strength <within [2] tiles of a [Great Improvement]>",
 			"Starts with [Public Library]","Starts with [Open-pit Mine]"
 			],
@@ -356,7 +356,7 @@
 		"innerColor": [76,153,0],
 		"uniqueName": "Neptunian",
 		"uniques": [
-			"[+1 Science] from every [Ocean]",
+			"[+1 Science] from every [Water]",
 			"[+1 Production] from every [Water]",
 			"Starts with [Aquapulvistics]","Starts with [Shipyard]"
 			],

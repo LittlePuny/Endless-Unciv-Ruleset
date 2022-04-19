@@ -614,6 +614,60 @@
 		"uniques": ["Unsellable","Will not be displayed in Civilopedia","Cost increases by [10] per owned city","[+1] population [in this city]","Only available <in cities with a [Create Population 19]>"]
 	},
 		// Vaulters
+	{
+		"name": "Holy Resource Building - Titanium",
+		"uniqueTo": "Vaulters",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"science": 20},
+		"uniques": ["Holy Resource Building","Only available <in cities without a [Holy Resource Building]>","Consumes [1] [Titanium]"]
+		"requiredTech": "Age of Discovery"
+	},
+	{
+		"name": "Holy Resource Building - Glassteel",
+		"uniqueTo": "Vaulters",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"gold": 20},
+		"uniques": ["Holy Resource Building","Only available <in cities without a [Holy Resource Building]>","Consumes [1] [Glassteel]"]
+		"requiredTech": "Age of Discovery"
+	},
+	{
+		"name": "Holy Resource Building - Adamantian",
+		"uniqueTo": "Vaulters",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"percentStatBonus": {"production": 20},
+		"uniques": ["Holy Resource Building","Only available <in cities without a [Holy Resource Building]>","Consumes [1] [Adamantian]"]
+		"requiredTech": "Age of Enlightenment"
+	},
+	{
+		"name": "Holy Resource Building - Palladian",
+		"uniqueTo": "Vaulters",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"percentStatBonus": {"food": 20},
+		"uniques": ["Holy Resource Building","Only available <in cities without a [Holy Resource Building]>","Consumes [1] [Palladian]"]
+		"requiredTech": "Age of Discovery"
+	},
+	{
+		"name": "Holy Resource Building - Mithrite",
+		"uniqueTo": "Vaulters",
+		"hurryCostModifier": 25,
+		"maintenance": 4,
+		"percentStatBonus": {"production": 15, "gold": 15},
+		"uniques": ["Holy Resource Building","Only available <in cities without a [Holy Resource Building]>","Consumes [1] [Mithrite]"]
+		"requiredTech": "Age of Discovery"
+	},
+	{
+		"name": "Holy Resource Building - Hyperium",
+		"uniqueTo": "Vaulters",
+		"hurryCostModifier": 25,
+		"maintenance": 4,
+		"percentStatBonus": {"science": 15, "food": 15},
+		"uniques": ["Holy Resource Building","Only available <in cities without a [Holy Resource Building]>","Consumes [1] [Hyperium]"]
+		"requiredTech": "Age of Discovery"
+	},
 		// Necrophages
 	{
 		"name": "Feeding Pits",
@@ -661,6 +715,46 @@
 		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
 	},
 		// Ardent Mages
+	{
+		"name": "Mages Age of Glory Unlock",
+		"uniqueTo": "Ardent Mages",
+		"replaces": "Age of Glory Unlock",
+		"requiredBuilding": "Palace",
+		"cost": -1,
+		"uniques": ["Free Great Person","Required to unlock next age","Free Technology","Consumes [9] [Tech Point]","Destroyed when the city is captured","Unsellable"]
+	},
+	{
+		"name": "Mages Age of Enlightenment Unlock",
+		"uniqueTo": "Ardent Mages",
+		"replaces": "Age of Enlightenment Unlock",
+		"requiredBuilding": "Age of Glory Unlock",
+		"cost": -1,
+		"uniques": ["Free Great Person","Required to unlock next age","Only available <if [Age of Glory Unlock] is constructed>","Free Technology","Consumes [9] [Tech Point]","Destroyed when the city is captured","Unsellable"]
+	},
+	{
+		"name": "Mages Age of Industry Unlock",
+		"uniqueTo": "Ardent Mages",
+		"replaces": "Age of Industry Unlock",
+		"requiredBuilding": "Age of Enlightenment Unlock",
+		"cost": -1,
+		"uniques": ["Free Great Person","Required to unlock next age","Only available <if [Age of Enlightenment Unlock] is constructed>","Free Technology","Consumes [9] [Tech Point]","Destroyed when the city is captured","Unsellable"]
+	},
+	{
+		"name": "Mages Age of Heroes Unlock",
+		"uniqueTo": "Ardent Mages",
+		"replaces": "Age of Heroes Unlock",
+		"requiredBuilding": "Age of Industry Unlock",
+		"cost": -1,
+		"uniques": ["Free Great Person","Required to unlock next age","Only available <if [Age of Industry Unlock] is constructed>","Free Technology","Consumes [9] [Tech Point]","Destroyed when the city is captured","Unsellable"]
+	},
+	{
+		"name": "Mages End of Ages Unlock",
+		"uniqueTo": "Ardent Mages",
+		"replaces": "End of Ages Unlock",
+		"requiredBuilding": "Age of Heroes Unlock",
+		"cost": -1,
+		"uniques": ["Free Great Person","Required to unlock next age","Only available <if [Age of Heroes Unlock] is constructed>","Free Technology","Consumes [9] [Tech Point]","Destroyed when the city is captured","Unsellable"]
+	},
 		// Roving clans
 		// Drakken
 		// Cultists
