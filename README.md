@@ -18,6 +18,8 @@ Use for strategic resources by adding them to building requirements.
 
 ###### Faction Images: Extracted from Endless Legend
 
+###### Resource Images: Extracted from Endless Legend/Space 2
+
 ###### Setseke: Extracted from Endless Legend
 
 ###### Kelp Forest: Kelp by Brand Mania from NounProject.com https://thenounproject.com/icon/kelp-1175213/
