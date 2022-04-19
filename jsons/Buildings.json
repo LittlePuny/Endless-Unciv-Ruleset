@@ -473,53 +473,6 @@
 	},
 		// Wild Walkers
 		// Broken Lords
-		// Vaulters
-		// Necrophages
-	{
-		"name": "Feeding Pits",
-		"uniqueTo": "Necrophages",
-		"maintenance": 2,
-        "hurryCostModifier": 50,
-        "uniques": [
-			"Remove extra unhappiness from annexed cities",
-            "+15% growth [in all cities]"
-			"Can only be built [in annexed cities]"
-			],
-		"requiredTech": "Age of Discovery"
-    },
-			//necrophage cadaver mechanic
-		
-	{
-		"name": "Cadaver Feeding I",
-		"cost": 0,
-		"food": 2,
-		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
-	},
-	{
-		"name": "Cadaver Feeding II",
-		"cost": 0,
-		"food": 2,
-		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
-	},
-	{
-		"name": "Cadaver Feeding III",
-		"cost": 0,
-		"food": 2,
-		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
-	},
-	{
-		"name": "Cadaver Feeding IV",
-		"cost": 0,
-		"food": 2,
-		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
-	},
-	{
-		"name": "Cadaver Feeding V",
-		"cost": 0,
-		"food": 2,
-		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
-	},
-	
 			//broken lords population buy/produce mechanic
 	{
 		"name": "Create Population 1",
@@ -660,7 +613,53 @@
 		"cost": 570,
 		"uniques": ["Unsellable","Will not be displayed in Civilopedia","Cost increases by [10] per owned city","[+1] population [in this city]","Only available <in cities with a [Create Population 19]>"]
 	},
+		// Vaulters
+		// Necrophages
+	{
+		"name": "Feeding Pits",
+		"uniqueTo": "Necrophages",
+		"replaces": "Governor's Hall",
+		"maintenance": 2,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Remove extra unhappiness from annexed cities",
+            "+15% growth [in all cities]"
+			"Can only be built [in annexed cities]"
+			],
+		"requiredTech": "Age of Discovery"
+    },
+			//necrophage cadaver mechanic
 		
+	{
+		"name": "Cadaver Feeding I",
+		"cost": 0,
+		"food": 2,
+		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
+	},
+	{
+		"name": "Cadaver Feeding II",
+		"cost": 0,
+		"food": 2,
+		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
+	},
+	{
+		"name": "Cadaver Feeding III",
+		"cost": 0,
+		"food": 2,
+		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
+	},
+	{
+		"name": "Cadaver Feeding IV",
+		"cost": 0,
+		"food": 2,
+		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
+	},
+	{
+		"name": "Cadaver Feeding V",
+		"cost": 0,
+		"food": 2,
+		"uniques": ["Cadaver","Unbuildable", "Hidden when religion is disabled", "[+1] population [in this city]"]
+	},
 		// Ardent Mages
 		// Roving clans
 		// Drakken
