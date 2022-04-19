@@ -8,14 +8,14 @@
 		"food": 1,
 	},
 	{
-		"name": "Food anomaly",
+		"name": "Food Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Food Exploitation",
 		"terrainsCanBeFoundOn": ["Plains","Tundra","Forest"],
 		"food": 2,
 	},
 	{
-		"name": "Strong Food anomaly",
+		"name": "Strong Food Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Food Exploitation",
 		"terrainsCanBeFoundOn": ["Hill","Snow","Dirt Field","Desert","Jungle","Fallout"],
@@ -30,14 +30,14 @@
 		"production": 1,
 	},
 	{
-		"name": "Industry anomaly",
+		"name": "Industry Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Industry Exploitation",
 		"terrainsCanBeFoundOn": ["Forest","Jungle","Fallout"],
 		"production": 2,
 	},
 	{
-		"name": "Strong Industry anomaly",
+		"name": "Strong Industry Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Industry Exploitation",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field"],
@@ -52,14 +52,14 @@
 		"gold": 1,
 	},
 	{
-		"name": "Dust anomaly",
+		"name": "Dust Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Dust Exploitation",
 		"terrainsCanBeFoundOn": ["Plains","Dirt Field","Jungle"],
 		"gold": 2,
 	},
 	{
-		"name": "Strong Dust anomaly",
+		"name": "Strong Dust Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Dust Exploitation",
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Snow","Hill","Forest","Fallout"],
@@ -74,14 +74,14 @@
 		"science": 1,
 	},
 	{
-		"name": "Science anomaly",
+		"name": "Science Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Science Exploitation",
 		"terrainsCanBeFoundOn": ["Tundra","Dirt Field","Fallout"],
 		"science": 2,
 	},
 	{
-		"name": "Strong Science anomaly",
+		"name": "Strong Science Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Science Exploitation",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill","Jungle","Forest"],
@@ -358,6 +358,12 @@
 	},
 	{
 		"name": "Bluecap Mold",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Ionic Crystals",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
