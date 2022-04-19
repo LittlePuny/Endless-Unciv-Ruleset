@@ -116,7 +116,6 @@
 		"outerColor": [25,25,51],
 		"innerColor": [255,128,0],
 		"uniqueName": "Holy Resources",
-		"uniqueText": "Quantity of strategic resources produced by empire +50% \n Can Build a Holy Resource Building in cities \n +1 Science from tiles naturally producing Science \n Land units gain the Portal User promotion \n Starts with Alchemist's Furnace \n Starts with Topography",
 		"uniques": [
 			"Quantity of strategic resources produced by the empire +[50]%",
 			"[+1 Science] from every [Snow]",
