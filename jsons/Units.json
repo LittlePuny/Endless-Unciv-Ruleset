@@ -399,12 +399,44 @@
 	},
 	
 	{
-		"name": "Great Arcanist",
+		"name": "Arcana Farmer",
+		"replaces": "Great Farmer",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Food Pillar]","Uncapturable", "Great Person - [Food]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Engineer",
+		"replaces": "Great Engineer",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building", "Can construct [Industry Pillar]","Uncapturable", "Great Person - [Production]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Merchant",
+		"replaces": "Great Merchant",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can construct [Dust Pillar]","Uncapturable", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Scientist",
 		"replaces": "Great Scientist",
 		"uniqueTo": "Ardent Mages",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Arcana Pillar]","Uncapturable", "Great Person - [Science]", "Unbuildable"],
-		"movement": 4
+		"uniques": ["Can hurry technology research", "Can construct [Science Pillar]","Uncapturable", "Great Person - [Science]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Arcana Artist",
+		"replaces": "Great Artist",
+		"uniqueTo": "Ardent Mages",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Influence Pillar]","Uncapturable", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
 	},
 	// Roving clans
 		{

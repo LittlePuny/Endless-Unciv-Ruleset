@@ -194,6 +194,10 @@
 		"name": "Technolover",
 		"uniques": ["[+33]% Strength <when fighting in [Strategic resource] tiles>",]
 	},
+	{
+		"name": "Portal User",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory",]
+	},
 	// Necrophages
 	{
 		"name": "Demanding Gods",

@@ -10,7 +10,8 @@
             "Scientific": 30
         },
         "uniques": [
-			"[+2 Culture] from [Strategic resource] tiles [in all cities]"
+			"[+2 Culture] from [Strategic resource] tiles [in all cities]",
+			"[-20]% tile improvement construction time"
         ],
         "policies": [
 			{
@@ -60,14 +61,15 @@
             "Scientific": 30
         },
         "uniques": [
-			"[+1 Culture] from [Bonus resource] tiles [in all cities]"
+			"[+1 Culture] from [Bonus resource] tiles [in all cities]",
+			"Receive a tech boost when scientific buildings/wonders are built in capital"
         ],
         "policies": [
 			{
                 "name": "SL1",
                 "uniques": [
                     "[+1 Science] [in all cities]"
-					"Receive a tech boost when scientific buildings/wonders are built in capital"
+					"[+5]% [Science] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -110,7 +112,8 @@
             "Scientific": 30
         },
         "uniques": [
-			"[+1 Culture] from every specialist [in all cities]"
+			"[+1 Culture] from every specialist [in all cities]",
+			"City-State territory always counts as friendly territory"
         ],
         "policies": [
 			{
@@ -160,7 +163,8 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+2 Culture] from [Luxury resource] tiles [in all cities]"
+			"[+2 Culture] from [Luxury resource] tiles [in all cities]",
+			"Each city founded increases culture cost of policies [33]% less than normal"
         ],
         "policies": [
 			{
@@ -210,6 +214,7 @@
         },
         "uniques": [
 			"[+3 Culture] [in capital]",
+			"City-State Influence recovers at twice the normal rate"
         ],
         "policies": [
 			{
@@ -259,7 +264,7 @@
         },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [50]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [

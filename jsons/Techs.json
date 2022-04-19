@@ -1,4 +1,5 @@
 [
+	//AGE OF Discovery
 	{
 		"columnNumber": 0,
 		"era": "Age of Discovery",
@@ -9,7 +10,7 @@
 				"name": "Age of Discovery",
 				"row": 6,
 				"quote": "",
-				"uniques": ["Starting tech","Enables Open Borders agreements"]
+				"uniques": ["Starting tech"]
 			}
 		]	
 	},
@@ -107,7 +108,7 @@
 				"row": 3,
 				"prerequisites": ["Age of Discovery"],
 				"quote": ""
-				"uniques": [ "Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.", "Gain a free [TPA11] [in capital]"]
+				"uniques": [ "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Gain a free [TPA11] [in capital]"]
 			},
 			{
 				"name": "Glory of Empire",
@@ -154,7 +155,7 @@
 			},
 		]	
 	}
-	
+	//AGE OF Glory
 	{
 		"columnNumber": 3,
 		"era": "Age of Glory",
@@ -273,7 +274,7 @@
 				"name": "Diplomat's Manse",
 				"row": 4,
 				"prerequisites": ["Age of Glory"],
-				"uniques": ["Enables Research agreements","Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Gain a free [TPB11] [in capital]"]
+				"uniques": ["Gifts of Gold to City-States generate [25]% more Influence","Enables Research agreements","Enables Open Borders agreements","Gain a free [TPB11] [in capital]"]
 				"quote": ""
 			},
 			{
@@ -315,7 +316,7 @@
 			},
 		]	
 	}
-	
+	//AGE OF  ENLIGHTENMENT
 	{
 		"columnNumber": 6,
 		"era": "Age of Enlightenment",
@@ -458,7 +459,7 @@
 			},
 		]	
 	}
-	
+	//AGE OF INDUSTRY
 	{
 		"columnNumber": 9,
 		"era": "Age of Industry",
@@ -613,7 +614,7 @@
 			},
 		]	
 	}
-	
+	//AGE OF HEROES
 	{
 		"columnNumber": 12,
 		"era": "Age of Heroes",
@@ -755,7 +756,7 @@
 			},
 		]	
 	}
-	
+	//END OF AGES
 	{
 		"columnNumber": 15,
 		"era": "End of Ages",

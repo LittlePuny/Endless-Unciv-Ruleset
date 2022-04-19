@@ -172,14 +172,104 @@
 	//Civilization unique improvements
 
 	{
-		"name": "Arcana Pillar",
+		"name": "Food Pillar",
 		"uniqueTo": "Ardent Mages",
-		"science": 6,
+		"food": 4,
 		"uniques": [
 			"Great Improvement",
 			"[+1 Food] for each adjacent [Food Exploitation]",
 			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Production] for each adjacent [Alchemist's Furnace]",
+			"[+1 Production] for each adjacent [Smelting Station]",
+			"[+1 Production] for each adjacent [Rare Metal Foundry]",
 			"[+1 Gold] for each adjacent [Dust Exploitation]",
+			"[+1 Gold] for each adjacent [Open-pit Mine]",
+			"[+1 Gold] for each adjacent [Reaping Station]",
+			"[+1 Gold] for each adjacent [Advanced Harvester]",
+			"[+1 Industry] for each adjacent [Science Exploitation]",
+			"[+1 Culture] for each adjacent [City Center]",
+			"[+1 Culture] for each adjacent [City Ruin]",
+			"[+2 Science] for each adjacent [Great Improvement]"
+			]
+	}
+	{
+		"name": "Industry Pillar",
+		"uniqueTo": "Ardent Mages",
+		"production": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Food] for each adjacent [Food Exploitation]",
+			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Production] for each adjacent [Alchemist's Furnace]",
+			"[+1 Production] for each adjacent [Smelting Station]",
+			"[+1 Production] for each adjacent [Rare Metal Foundry]",
+			"[+1 Gold] for each adjacent [Dust Exploitation]",
+			"[+1 Gold] for each adjacent [Open-pit Mine]",
+			"[+1 Gold] for each adjacent [Reaping Station]",
+			"[+1 Gold] for each adjacent [Advanced Harvester]",
+			"[+1 Industry] for each adjacent [Science Exploitation]",
+			"[+1 Culture] for each adjacent [City Center]",
+			"[+1 Culture] for each adjacent [City Ruin]",
+			"[+2 Science] for each adjacent [Great Improvement]"
+			]
+	}
+	{
+		"name": "Dust Pillar",
+		"uniqueTo": "Ardent Mages",
+		"gold": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Food] for each adjacent [Food Exploitation]",
+			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Production] for each adjacent [Alchemist's Furnace]",
+			"[+1 Production] for each adjacent [Smelting Station]",
+			"[+1 Production] for each adjacent [Rare Metal Foundry]",
+			"[+1 Gold] for each adjacent [Dust Exploitation]",
+			"[+1 Gold] for each adjacent [Open-pit Mine]",
+			"[+1 Gold] for each adjacent [Reaping Station]",
+			"[+1 Gold] for each adjacent [Advanced Harvester]",
+			"[+1 Industry] for each adjacent [Science Exploitation]",
+			"[+1 Culture] for each adjacent [City Center]",
+			"[+1 Culture] for each adjacent [City Ruin]",
+			"[+2 Science] for each adjacent [Great Improvement]"
+			]
+	}
+	{
+		"name": "Science Pillar",
+		"uniqueTo": "Ardent Mages",
+		"science": 8,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Food] for each adjacent [Food Exploitation]",
+			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Production] for each adjacent [Alchemist's Furnace]",
+			"[+1 Production] for each adjacent [Smelting Station]",
+			"[+1 Production] for each adjacent [Rare Metal Foundry]",
+			"[+1 Gold] for each adjacent [Dust Exploitation]",
+			"[+1 Gold] for each adjacent [Open-pit Mine]",
+			"[+1 Gold] for each adjacent [Reaping Station]",
+			"[+1 Gold] for each adjacent [Advanced Harvester]",
+			"[+1 Industry] for each adjacent [Science Exploitation]",
+			"[+1 Culture] for each adjacent [City Center]",
+			"[+1 Culture] for each adjacent [City Ruin]",
+			"[+2 Science] for each adjacent [Great Improvement]"
+			]
+	}
+	{
+		"name": "Influence Pillar",
+		"uniqueTo": "Ardent Mages",
+		"culture": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Food] for each adjacent [Food Exploitation]",
+			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Production] for each adjacent [Alchemist's Furnace]",
+			"[+1 Production] for each adjacent [Smelting Station]",
+			"[+1 Production] for each adjacent [Rare Metal Foundry]",
+			"[+1 Gold] for each adjacent [Dust Exploitation]",
+			"[+1 Gold] for each adjacent [Open-pit Mine]",
+			"[+1 Gold] for each adjacent [Reaping Station]",
+			"[+1 Gold] for each adjacent [Advanced Harvester]",
 			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City Center]",
 			"[+1 Culture] for each adjacent [City Ruin]",

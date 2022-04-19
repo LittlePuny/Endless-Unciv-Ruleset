@@ -2,13 +2,13 @@
 [
 	{
 		"name": "Scientist",
-		"science": 3,
+		"science": 4,
 		"greatPersonPoints": {"Great Scientist": 3},
 		"color": [0,0,255]
 	},
 	{
 		"name": "Merchant",
-		"gold": 3,
+		"gold": 4,
 		"greatPersonPoints": {"Great Merchant": 3},
 		"color": [255,215,0]
 	},
@@ -20,13 +20,13 @@
 	},
 	{
 		"name": "Engineer",
-		"production": 3,
+		"production": 4,
 		"greatPersonPoints": {"Great Engineer": 3},
 		"color": [139,69,19]
 	}
 	{
 		"name": "Farmer",
-		"food": 3,
+		"food": 4,
 		"greatPersonPoints": {"Great Farmer": 3},
 		"color": [15,204,15]
 	}

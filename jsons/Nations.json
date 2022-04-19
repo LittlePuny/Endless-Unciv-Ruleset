@@ -48,6 +48,7 @@
 		"uniques": [
 			"[+1 Production] from every [Forest]","[+1 Production] from every [Jungle]","[+1 Production] from every [Marsh]",
 			"[+10]% Production when constructing [all] buildings [in all cities]",
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 			"Starts with [Cultivation]","Starts with [Sewer System]"
 			],
 		"cities": ["Askas Kuigan", "Qua'usk", "Ataiu", "Tolilian", "Nyrinis", "Shiamere", "Gimael", "Cajnor", "Llighu", "Andarin", "Mahaeln", "Rewyt", "Ipedan", "Galerath", "Is'ryn", "Kared", "Zydena", "Helcrast", "Tralni", "Wiryn", "Perusk", "Sodeltan", "Shadonn", "Kentamys", "Uskdarler", "Sadrej"]
@@ -74,7 +75,7 @@
 		"outerColor": [0,0,102],
 		"innerColor": [102,178,255],
 		"uniqueName": "Appetite for Dust",
-		"uniqueText": "Can't produce food from any source and can't naturally grow population naturally.\n Doesn't suffer starvation and can produce or buy population.\n +1 Gold from tiles naturaly producing Gold.\n Starts with Empire Mint.\n Starts with Alchemist's Furnace",
+		"uniqueText": "Can't produce food from any source and can't naturally grow population.\n Doesn't suffer starvation and can produce or buy population.\n +1 Gold from tiles naturaly producing Gold.\n Starts with Empire Mint.\n Starts with Alchemist's Furnace",
 		"uniques": [
 			"Nullifies Growth [in all cities]",
 			"[+1 Gold] from every [Desert]",
@@ -118,6 +119,7 @@
 		"uniques": [
 			"[+1 Production] from every [Strategic resource]"
 			"[+1 Science] from every [Strategic resource]"
+			"[Land] units gain the [Portal User] promotion"
 			"Starts with [Alchemist's Furnace]","Starts with [Topography]"
 			],
 		"cities": ["Budakai", "Strard", "Trode", "Aldodev", "Perusk", "Glandeh", "Beloch", "Histrel", "Elmchaia", "Euste", "Skaeen", "Byaegol", "Lyeess", "Frytta", "Therrat", "Aldodev", "Aranak", "Warlaf", "Ildlyea", "Murynlar", "Lingain", "Sayap", "Erril", "Lorw", "Oddenda", "Reyjis", "Horlaken", "Delard",]
@@ -171,8 +173,14 @@
 		"outerColor": [153,0,0],
 		"innerColor": [51,255,255],
 		"uniqueName": "Power Through Pain",
+		"uniqueText": "Gain a free Great Person of your choice when you advance through ages.\n Your Great Improvements gain extra yields based on adjacent improvements.\n +20% Strength within 2 tiles of a Great Improvement. \n Starts with Public Library.\n Starts with Open-pit Mine",
 		"uniques": [
-			"[+20]% Strength <within [2] tiles of a [Arcana Pillar]>",
+			"Free Great Person <upon discovering [Age of Glory]>"
+			"Free Great Person <upon discovering [Age of Enlightenment]>"
+			"Free Great Person <upon discovering [Age of Industry]>"
+			"Free Great Person <upon discovering [Age of Heroes]>"
+			"Free Great Person <upon discovering [End of Ages]>"
+			"[+20]% Strength <within [2] tiles of a [Great Improvement]>",
 			"Starts with [Public Library]","Starts with [Open-pit Mine]"
 			],
 		"cities": ["Gnosta", "Manyur", "Zadde", "Himun", "Geiala", "Hendwen", "Oroos", "Dasraj", "Xighor", "Utanla", "Cyin", "Guairon", "Yuredan", "Ammael", "Junyan", "Ranf", "Suan", "Rothkallor", "Valdaea", "Tearan", "Coldramor", "Avarilea", "Lendfel", "Tuldraj", "Lireisy", "Jayain", "Ullath",]
