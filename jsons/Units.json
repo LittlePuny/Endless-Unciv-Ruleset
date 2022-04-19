@@ -222,8 +222,8 @@
 		"uniques": ["Support"
 			"Can see over obstacles",
 			"[+4] Sight <in [Forest] tiles>"
-			"[+4] Sight <in [Shrubland] tiles>"
-			"[+4] Sight <in [Enchanted Woods] tiles>"
+			"[+4] Sight <in [Jungle] tiles>"
+			"[+4] Sight <in [Marsh] tiles>"
 			]
 		"attackSound": "fire"
 		"requiredTech": "National Forces",

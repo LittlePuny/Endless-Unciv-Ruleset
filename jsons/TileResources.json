@@ -4,7 +4,7 @@
 		"name": "Weak Food Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Food Exploitation",
-		"terrainsCanBeFoundOn": ["Grassland","Enchanted Woods"],
+		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
 		"food": 1,
 	},
 	{
@@ -18,7 +18,7 @@
 		"name": "Strong Food anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Food Exploitation",
-		"terrainsCanBeFoundOn": ["Tundra","Snow","Dirt Field","Desert","Shrubland","Rock Spikes"],
+		"terrainsCanBeFoundOn": ["Hill","Snow","Dirt Field","Desert","Jungle","Fallout"],
 		"food": 3,
 	},
 	
@@ -33,7 +33,7 @@
 		"name": "Industry anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Industry Exploitation",
-		"terrainsCanBeFoundOn": ["Forest","Shrubland","Rock Spikes"],
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Fallout"],
 		"production": 2,
 	},
 	{
@@ -55,14 +55,14 @@
 		"name": "Dust anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Dust Exploitation",
-		"terrainsCanBeFoundOn": ["Plains","Dirt Field","Shrubland"],
+		"terrainsCanBeFoundOn": ["Plains","Dirt Field","Jungle"],
 		"gold": 2,
 	},
 	{
 		"name": "Strong Dust anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Dust Exploitation",
-		"terrainsCanBeFoundOn": ["Grassland","Tundra","Snow","Hill","Forest","Rock Spikes"],
+		"terrainsCanBeFoundOn": ["Grassland","Tundra","Snow","Hill","Forest","Fallout"],
 		"gold": 2,
 	},
 	
@@ -70,21 +70,21 @@
 		"name": "Weak Science Anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Science Exploitation",
-		"terrainsCanBeFoundOn": ["Snow","Crystal Flowers"],
+		"terrainsCanBeFoundOn": ["Snow","Flood plains"],
 		"science": 1,
 	},
 	{
 		"name": "Science anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Science Exploitation",
-		"terrainsCanBeFoundOn": ["Tundra","Dirt Field","Rock Spikes"],
+		"terrainsCanBeFoundOn": ["Tundra","Dirt Field","Fallout"],
 		"science": 2,
 	},
 	{
 		"name": "Strong Science anomaly",
 		"resourceType": "Bonus",
 		"improvement": "Science Exploitation",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill","Shrubland","Forest"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill","Jungle","Forest"],
 		"science": 2,
 	},
 
@@ -93,7 +93,7 @@
 {
 	"name": "Glassteel",
 	"resourceType": "Strategic",
-	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 	"production": 1,
 	"improvement": "Alchemist's Furnace",
 	"improvementStats": {"production": 1},
@@ -107,7 +107,7 @@
 {
 	"name": "Titanium",
 	"resourceType": "Strategic",
-	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 	"production": 1,
 	"improvement": "Alchemist's Furnace",
 	"improvementStats": {"production": 1},
@@ -122,7 +122,7 @@
 	"name": "Adamantian",
 	"resourceType": "Strategic",
 	"revealedBy": "Age of Enlightenment",
-	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 	"production": 2,
 	"improvement": "Smelting Station",
 	"improvementStats": {"production": 1},
@@ -135,7 +135,7 @@
 	"name": "Palladian",
 	"resourceType": "Strategic",
 	"revealedBy": "Age of Enlightenment",
-	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 	"production": 2,
 	"improvement": "Smelting Station",
 	"improvementStats": {"production": 1},
@@ -148,7 +148,7 @@
 	"name": "Mithrite",
 	"resourceType": "Strategic",
 	"revealedBy": "Age of Industry",
-	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 	"production": 2,
 	"improvement": "Rare Metal Foundry",
 	"improvementStats": {"production": 2},
@@ -161,7 +161,7 @@
 	"name": "Hyperium",
 	"resourceType": "Strategic",
 	"revealedBy": "Age of Industry",
-	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+	"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 	"production": 2,
 	"improvement": "Rare Metal Foundry",
 	"improvementStats": {"production": 2},
@@ -187,7 +187,7 @@
 	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Open-pit Mine",
 		"improvementStats": {"gold": 1, "science": 1},
@@ -196,7 +196,7 @@
 	{
 		"name": "Emerald",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Open-pit Mine",
 		"improvementStats": {"gold": 1, "production": 1},
@@ -205,7 +205,7 @@
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Open-pit Mine",
 		"improvementStats": {"gold": 2},
@@ -214,7 +214,7 @@
 	{
 		"name": "Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Open-pit Mine",
 		"improvementStats": {"gold": 1, "food": 1},
@@ -223,7 +223,7 @@
 	{
 		"name": "Transwine",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Open-pit Mine",
 		"improvementStats": {"gold": 1, "culture": 1},
@@ -234,7 +234,7 @@
 		"name": "Blood Crystal",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Reaping Station",
 		"improvementStats": {"gold": 1, "food": 2},
@@ -244,7 +244,7 @@
 		"name": "Grassilk",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Reaping Station",
 		"improvementStats": {"gold": 3}
@@ -254,7 +254,7 @@
 		"name": "Moonleaf",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Reaping Station",
 		"improvementStats": {"gold": 1, "science": 2}
@@ -264,7 +264,7 @@
 		"name": "Quicksilver",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Reaping Station",
 		"improvementStats": {"gold": 1, "culture": 2}
@@ -274,7 +274,7 @@
 		"name": "Titan Bones",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Reaping Station",
 		"improvementStats": {"gold": 1, "production": 2}
@@ -285,7 +285,7 @@
 		"name": "Dust Orchid",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Advanced Harvester",
 		"improvementStats": {"gold": 1, "science": 3}
@@ -295,7 +295,7 @@
 		"name": "Dustwater",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Advanced Harvester",
 		"improvementStats": {"gold": 4}
@@ -305,7 +305,7 @@
 		"name": "Hydromiel",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Advanced Harvester",
 		"improvementStats": {"gold": 1, "food": 3}
@@ -315,7 +315,7 @@
 		"name": "Pixie Blood",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Advanced Harvester",
 		"improvementStats": {"gold": 1, "production": 3}
@@ -325,7 +325,7 @@
 		"name": "Redsang",
 		"resourceType": "Luxury",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Dirt Field","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 2,
 		"improvement": "Advanced Harvester",
 		"improvementStats": {"gold": 1, "culture": 3}

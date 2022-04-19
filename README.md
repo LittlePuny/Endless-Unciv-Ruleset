@@ -16,20 +16,22 @@ Use for strategic resources by adding them to building requirements.
 
 ### Image Credits
 
-##### Faction Images: Extracted from Endless Legend
+###### Faction Images: Extracted from Endless Legend
 
-##### Setseke: Extracted from Endless Legend
+###### Setseke: Extracted from Endless Legend
 
-##### Kelp Forest: Kelp by Brand Mania from NounProject.com https://thenounproject.com/icon/kelp-1175213/
+###### Kelp Forest: Kelp by Brand Mania from NounProject.com https://thenounproject.com/icon/kelp-1175213/
 
-##### Perpetual Storm: Lightning by Sophia Lee from NounProject.com https://thenounproject.com/icon/lightning-59362/
+###### Perpetual Storm: Lightning by Sophia Lee from NounProject.com https://thenounproject.com/icon/lightning-59362/
 
-##### Enchanted Woods: Mushroom by richad from NounProject.com https://thenounproject.com/icon/mushroom-3011162/
+###### Shrubland: Shrub by Andre Buand from NounProject.com https://thenounproject.com/icon/shrub-4416049/
 
-##### Rock Spike: Ice by Tommy Suhartomo from NounProject.com https://thenounproject.com/icon/ice-3946171/
+###### Enchanted Woods: Mushroom by richad from NounProject.com https://thenounproject.com/icon/mushroom-3011162/
 
-##### Sunken Ruins: Flooded Bank by Till Teenck from NounProject.com https://thenounproject.com/icon/flooded-bank-156931/
+###### Rock Spike: Ice by Tommy Suhartomo from NounProject.com https://thenounproject.com/icon/ice-3946171/
 
-##### Scorched wildlands: Bare Trees by Marie Van den Broeck from NounProject.com https://thenounproject.com/icon/bare-trees-264528/
+###### Sunken Ruins: Flooded Bank by Till Teenck from NounProject.com https://thenounproject.com/icon/flooded-bank-156931/
 
-##### Lava Swirl: Lava Flow by Hayashi Fumihiro from NounProject.com https://thenounproject.com/icon/lava-flow-79093/
+###### Scorched wildlands: Bare Trees by Marie Van den Broeck from NounProject.com https://thenounproject.com/icon/bare-trees-264528/
+
+###### Lava Swirl: Lava Flow by Hayashi Fumihiro from NounProject.com https://thenounproject.com/icon/lava-flow-79093/

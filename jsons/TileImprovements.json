@@ -2,7 +2,7 @@
 	//Generic
 	{
 		"name": "Food Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Age of Discovery",
@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Industry Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Age of Discovery",
@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Dust Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Age of Discovery",
@@ -26,7 +26,7 @@
 	},
 	{
 		"name": "Science Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"science": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Age of Discovery",
@@ -38,21 +38,21 @@
 		"name": "Alchemist's Furnace",
 		"turnsToBuild": 7,
 		"techRequired": "Alchemist's Furnace",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Shrubland]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Smelting Station",
 		"turnsToBuild": 7,
 		"techRequired": "Smelting Station",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Shrubland]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Rare Metal Foundry",
 		"turnsToBuild": 7,
 		"techRequired": "Rare Metal Foundry",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Shrubland]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "C"
 	},
 	
@@ -60,28 +60,28 @@
 		"name": "Open-pit Mine",
 		"turnsToBuild": 7,
 		"techRequired": "Open-pit Mine",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Shrubland]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Reaping Station",
 		"turnsToBuild": 7,
 		"techRequired": "Reaping Station",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Shrubland]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Advanced Harvester",
 		"turnsToBuild": 7,
 		"techRequired": "Advanced Harvester",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Shrubland]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]"],
 		"shortcutKey": "C"
 	},
 	
 	// Military improvement
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Shrubland","Rock Spikes","Enchanted Woods","Crystal Flowers","Oasis"],
+		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"turnsToBuild": 6,
 		"techRequired": "Imperial Highways",
 		"uniques": [

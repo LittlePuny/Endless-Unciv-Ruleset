@@ -46,7 +46,7 @@
 		"innerColor": [178,255,153],
 		"uniqueName": "Way of the Woodlands",
 		"uniques": [
-			"[+1 Production] from every [Forest]","[+1 Production] from every [Shrubland]","[+1 Production] from every [Enchanted Woods]",
+			"[+1 Production] from every [Forest]","[+1 Production] from every [Jungle]","[+1 Production] from every [Marsh]",
 			"[+10]% Production when constructing [all] buildings [in all cities]",
 			"Starts with [Cultivation]","Starts with [Sewer System]"
 			],
@@ -74,12 +74,17 @@
 		"outerColor": [0,0,102],
 		"innerColor": [102,178,255],
 		"uniqueName": "Appetite for Dust",
+		"uniqueText": "Can't produce food from any source and can't naturally grow population naturally.\n Doesn't suffer starvation and can produce or buy population.\n +1 Gold from tiles naturaly producing Gold.\n Starts with Empire Mint.\n Starts with Alchemist's Furnace",
 		"uniques": [
 			"Nullifies Growth [in all cities]",
 			"[+1 Gold] from every [Desert]",
-			"[+1 Gold] from every [Shrubland]",
+			"[+1 Gold] from every [Jungle]",
 			"[+1 Gold] from every [Plains]",
 			"[+1 Gold] from every [Dirt Field]",
+			"[+1 Gold] from every [Flood plains]",
+			"[+1 Gold] from every [Ocean]",
+			"[+1 Gold] from every [Perpetual Storm]",
+			"[+1 Gold] from every [Lake]",
 			"[-100 Food] from every [Land]",
 			"[-100 Food] from every [Water]",
 			"[-100 Food] from every [Food]",
@@ -384,7 +389,7 @@
 		"name": "Mykara",
 		"leaderName": "Toth Agnes",
 		"adjective": ["Mykara"],
-		"startBias":["Shrubland"],
+		"startBias":["Jungle"],
 		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "The Mykara are a race of sentient plant matter and fungi, a single organism spanning thousands of semi-autonomous agents and time immemorial, ever adapting to survive and thrive. They spread all over Auriga as a massive underground root system, sprouting on the edges of the map, clinging to the regions other factions leave unattended."

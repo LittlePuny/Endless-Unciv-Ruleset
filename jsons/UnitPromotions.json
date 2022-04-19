@@ -182,7 +182,7 @@
 	// Wild Walkers
 	{
 		"name": "Way of the Woodlands",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Shrubland] tiles>","[+33]% Strength <when fighting in [Enchanted Woods] tiles>",]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","[+33]% Strength <when fighting in [Marsh] tiles>",]
 	},
 	// Broken Lords
 	{

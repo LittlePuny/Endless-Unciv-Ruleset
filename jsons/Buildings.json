@@ -121,7 +121,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Farmer": 2},
         "hurryCostModifier": 50,
-        "uniques": ["[+1 Food] from every specialist [in this city]"],
+        "uniques": ["[+2 Food] from every specialist [in this city]"],
 		"requiredTech": "Cultivation"
     },
 	
@@ -179,7 +179,7 @@
 		"specialistSlots": {"Scientist": 2},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Science] from every specialist [in this city]"],
+		"uniques": ["[+2 Science] from every specialist [in this city]"],
 		"requiredTech": "Topography"
 	},
 	
@@ -305,7 +305,7 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"[+1 Production] from [Forest] tiles [in this city]",
-			"[+1 Production] from [Shrubland] tiles [in this city]",
+			"[+1 Production] from [Jungle] tiles [in this city]",
 			"[+1 Production] from [Enchanted Forest] tiles [in this city]"
 			],
 		"requiredTech": "Management Science"
@@ -331,10 +331,10 @@
         "uniques": [
 			"[+1 Production] from [Hill] tiles [in this city]",
 			"[+1 Production] from [Forest] tiles [in this city]",
-			"[+1 Production] from [Shrubland] tiles [in this city]",
-			"[+1 Production] from [Rock Spikes] tiles [in this city]",
-			"[+1 Production] from [Crystal Flowers] tiles [in this city]",
-			"[+1 Production] from [Enchanted Woods] tiles [in this city]"]
+			"[+1 Production] from [Jungle] tiles [in this city]",
+			"[+1 Production] from [Fallout] tiles [in this city]",
+			"[+1 Production] from [Flood plains] tiles [in this city]",
+			"[+1 Production] from [Marsh] tiles [in this city]"]
 		"requiredTech": "Hydrology"
     },
 	{
@@ -344,7 +344,7 @@
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 2},
         "hurryCostModifier": 50,
-        "uniques": ["[+1 Production] from every specialist [in this city]"],
+        "uniques": ["[+2 Production] from every specialist [in this city]"],
 		"requiredTech": "Hydrology"
     },
 	
