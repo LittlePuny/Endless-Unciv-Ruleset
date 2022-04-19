@@ -655,7 +655,7 @@
 		"movement": 4,
 		"strength": 35,
 		"cost": 90,
-		"uniques": ["Frigate","[+25]% Strength <when defending>","Can move after attacking","Can see invisible [Submersible] units",],
+		"uniques": ["Frigate","[+25]% Strength <when defending>","Can move after attacking","Can see invisible [Submersible] units"],
 		"promotions": []
 		"attackSound": "nonmetalhit"
 		"requiredTech": "National Forces",
@@ -667,7 +667,7 @@
 		"movement": 6,
 		"strength": 40,
 		"cost": 120,
-		"uniques": ["Submersible","[+25]% Strength <vs [Water] units><when attacking>","Can see invisible [Submersible] units",],
+		"uniques": ["Submersible","[+25]% Strength <vs [Water] units><when attacking>","Can see invisible [Submersible] units"],
 		"promotions": []
 		"attackSound": "torpedo"
 		"requiredTech": "Elite Forces",
@@ -743,7 +743,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Cavalry","[+1] additional attacks per turn",],
+		"uniques": ["Cavalry","[+1] additional attacks per turn"],
 		"promotions": ["Fungal Healing","Ranged Slayer"]
 		"attackSound": "metalhit"
 		"requiredTech": "National Forces",
@@ -767,7 +767,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Cavalry","Only available <if [Bos Assimilated] is constructed>",],
+		"uniques": ["Minor","Cavalry","Only available <if [Bos Assimilated] is constructed>"],
 		"promotions": ["Ranged Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -779,7 +779,7 @@
 		"strength": 20,
 		"rangedStrength": 25,
 		"cost": 90,
-		"uniques": ["Minor","Support","Only available <if [Ceratan Assimilated] is constructed>",],
+		"uniques": ["Minor","Support","Only available <if [Ceratan Assimilated] is constructed>"],
 		"promotions": ["Medic","Shielded"]
 		"attackSound": "metalhit"
 	},
@@ -789,7 +789,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Infantry","Only available <if [Delver Assimilated] is constructed>",],
+		"uniques": ["Minor","Infantry","Only available <if [Delver Assimilated] is constructed>"],
 		"promotions": ["Infantry Slayer","Ranged Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -799,7 +799,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 225,
-		"uniques": ["Minor","Only available <if [Dorgeshi Assimilated] is constructed>",],
+		"uniques": ["Minor","Only available <if [Dorgeshi Assimilated] is constructed>"],
 		"promotions": ["Cavalry Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -809,7 +809,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Infantry","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Only available <if [Erycis Assimilated] is constructed>",],
+		"uniques": ["Minor","Infantry","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Only available <if [Erycis Assimilated] is constructed>"],
 		"promotions": []
 		"attackSound": "metalhit"
 	},
@@ -831,7 +831,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Cavalry","Only available <if [Gauran Assimilated] is constructed>",],
+		"uniques": ["Minor","Cavalry","Only available <if [Gauran Assimilated] is constructed>"],
 		"promotions": ["Besiege"]
 		"attackSound": "metalhit"
 	},
@@ -841,7 +841,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Only available <if [Geldirus Assimilated] is constructed>",],
+		"uniques": ["Minor","Only available <if [Geldirus Assimilated] is constructed>"],
 		"promotions": ["Ranged Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -851,7 +851,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Flying","Only available <if [Haunts Assimilated] is constructed>",],
+		"uniques": ["Minor","Flying","Only available <if [Haunts Assimilated] is constructed>"],
 		"promotions": ["Infantry Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -863,7 +863,7 @@
 		"strength": 20,
 		"rangedStrength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Units ignore terrain costs when moving into any tile with Hills","Only available <if [Hurnas Assimilated] is constructed>",],
+		"uniques": ["Minor","Units ignore terrain costs when moving into any tile with Hills","Only available <if [Hurnas Assimilated] is constructed>"],
 		"promotions": ["Ranged Slayer"]
 		"attackSound": "arrow"
 	},
@@ -885,7 +885,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Flying","Only available <if [Kazanji Assimilated] is constructed>",],
+		"uniques": ["Minor","Flying","Only available <if [Kazanji Assimilated] is constructed>"],
 		"promotions": ["Flying Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -897,7 +897,7 @@
 		"strength": 20,
 		"rangedStrength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Ranged","Only available <if [Magtay Assimilated] is constructed>",],
+		"uniques": ["Minor","Ranged","Only available <if [Magtay Assimilated] is constructed>"],
 		"promotions": ["Flying Slayer"]
 		"attackSound": "arrow"
 	},
@@ -907,7 +907,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Only available <if [Magtay Assimilated] is constructed>",],
+		"uniques": ["Minor","Only available <if [Magtay Assimilated] is constructed>"],
 		"promotions": ["Cavalry Slayer"]
 		"attackSound": "metalhit"
 	},
@@ -917,7 +917,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Infantry","Only available <if [Silics Assimilated] is constructed>",],
+		"uniques": ["Minor","Infantry","Only available <if [Silics Assimilated] is constructed>"],
 		"promotions": ["Besiege","Shielded"]
 		"attackSound": "metalhit"
 	},
@@ -927,7 +927,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Infantry","Only available <if [Sisters Assimilated] is constructed>",],
+		"uniques": ["Minor","Infantry","Only available <if [Sisters Assimilated] is constructed>"],
 		"promotions": ["Medic","Shielded"]
 		"attackSound": "metalhit"
 	},
@@ -937,7 +937,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 90,
-		"uniques": ["Minor","Infantry","Only available <if [Urces Assimilated] is constructed>",],
+		"uniques": ["Minor","Infantry","Only available <if [Urces Assimilated] is constructed>"],
 		"promotions": ["Cavalry Slayer"]
 		"attackSound": "metalhit"
 	},

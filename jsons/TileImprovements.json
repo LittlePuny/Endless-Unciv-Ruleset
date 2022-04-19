@@ -33,7 +33,6 @@
 		"shortcutKey": "S"
 	},
 	
-	
 	// Resource-specific
 	{
 		"name": "Alchemist's Furnace",
@@ -107,7 +106,7 @@
 		"shortcutKey": "R",
         "civilopediaText": [
             {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Highway Outposts", "link":"Technology/Highway Outposts"},
+            {"text":"Reduces movement cost to ⅓ with Highway Outposts", "link":"Technology/Highway Outposts"}
         ]
 	},
 	{
@@ -188,6 +187,7 @@
 			]
 	}
 
+	// Other generic
 	{ 
 		"name": "Ancient ruins", 
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"]

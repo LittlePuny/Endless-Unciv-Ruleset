@@ -381,7 +381,7 @@
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
-		"name": "Superspus",
+		"name": "Superspuds",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
