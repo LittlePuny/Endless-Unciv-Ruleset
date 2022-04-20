@@ -328,7 +328,7 @@
 		"strength": 30,
 		"cost": 60,
 		"uniques": ["Infantry"],
-		"promotions": ["Demanding Gods","Ranged Slayer","Pillager"],
+		"promotions": ["Will of the Hive","Ranged Slayer","Pillager"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -339,7 +339,7 @@
 		"strength": 30,
 		"cost": 90,
 		"uniques": ["Flying"],
-		"promotions": ["Demanding Gods","Infantry Slayer","Pillager"],
+		"promotions": ["Will of the Hive","Infantry Slayer","Pillager"],
 		"attackSound": "nonmetalhit"
 		"requiredTech": "National Forces",
 	},
@@ -353,7 +353,7 @@
 		"rangedStrength": 30,
 		"cost": 120,
 		"uniques": ["Support"],
-		"promotions": ["Demanding Gods","Proliferate"],
+		"promotions": ["Will of the Hive","Proliferate"],
 		"attackSound": "nonmetalhit"
 		"requiredTech": "Elite Forces",
 	},
@@ -523,7 +523,7 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 120,
-		"uniques": ["Support","Can pass through impassable tiles","All tiles costs 1"],
+		"uniques": ["Support","Can pass through impassable tiles","All tiles cost 1 movement"],
 		"promotions": ["Fast Learner","Besiege"]
 		"attackSound": "artillery"
 		"requiredTech": "Elite Forces",
@@ -641,7 +641,7 @@
 		"cost": 120,
 		"uniques": [
 		"Normal vision when embarked", "Defense bonus when embarked"
-		"Can pass through impassable tiles","All tiles costs 1"
+		"Can pass through impassable tiles","All tiles cost 1 movement"
 		"Bonus for units in 2 tile radius 15%"],
 		"promotions": []
 		"attackSound": "metalhit"

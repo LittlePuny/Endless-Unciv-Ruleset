@@ -5,6 +5,8 @@
 		"outerColor": [255, 255, 255]
 		"uniqueName": "Mechanics"
 		"uniques": [
+			"+ Very early Alpha +"
+			"Many things are unfinished, especialy unit balance and tech tree beyond 2nd era. Use Ardent Mages, Broken Lords, Vaulters or Wild Walkers for now."
 			"+ Terrain & Resources: +"
 			"Endless Unciv has 6 base land tiles with the introduction of 'Dirt Field'. Each terrain has at least 2 stats so desert and snow regions are valid city locations for certain yields. Terrain features behave differently as you can't chop down forests and most of their names are placeholder for now. Ocean tiles also have 2 possible features, 'Kelp Forest' which slows down ships and 'Perpetual Storm' which has faster movement and hides tiles behind but deals units damage if they spend turn on them."
 			"Only 1/3 of luxury and strategic resources are revealed at the start and each tier requires their own technology to be researched for claiming them. Bonus resources give immediate yield to tiles and aren't tied to specific improvement."
@@ -86,9 +88,7 @@
 			"[+1 Gold] from every [Ocean]",
 			"[+1 Gold] from every [Perpetual Storm]",
 			"[+1 Gold] from every [Lake]",
-			"[-100 Food] from every [Land]",
-			"[-100 Food] from every [Water]",
-			"[-100 Food] from every [Food]",
+			"[-100 Food] from every [All]",
 			"[-100 Food] from every [Farmer]"
 			"Starts with [Empire Mint]","Starts with [Alchemist's Furnace]"
 			],
@@ -117,7 +117,7 @@
 		"innerColor": [255,128,0],
 		"uniqueName": "Holy Resources",
 		"uniques": [
-			"Quantity of strategic resources produced by the empire +[50]%",
+			"Quantity of strategic resources produced by the empire +[25]%",
 			"[+1 Science] from every [Snow]",
 			"[+1 Science] from every [Dirt Field]",
 			"[+1 Science] from every [Tundra]",
@@ -148,10 +148,14 @@
 
 		"outerColor": [153,153,0],
 		"innerColor": [51,25,0],
-		"uniqueName": "Will of the Hive"
+		"uniqueName": "Recycling"
 		"uniques": [
 			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
 			"May buy [Cadaver] buildings with [Faith] [in all cities]",
+			"[-1 Food] from every [Land]",
+			"[-1 Food] from every [Water]",
+			"[+1 Food] per [1] population [in all cities]"
+			"[-25]% Culture cost of natural border growth [in all cities]"
 			"Starts with [Mercenary Market]","Starts with [Mill Foundry]"
 			],
 		"cities": ["Ka-Tak-Nul", "Achq", "Beloch", "Sliq", "Yaeg", "Qua'eng", "Belan", "Erindla", "Graldam", "Itleni", "Mesan", "Sylali", "Forany", "Anchan", "Caitan", "Samunttia", "Endigir", "Djoul", "Hareil", "Hadow", "Daromard", "Djathat", "Tsavyal", "Bolman", "Cauthayan", "Trode", "Morcdra", "Gnathen",]
@@ -167,7 +171,7 @@
 		"startIntroPart2": "Stoicism is therefore as important as intelligence, and indifference to physical discomfort is the way in which an individual's worth is measured - be they an Ardent Mage or a stranger. After falling out with the rest of the Inner Circle in dark circumstances, Zor Abaz has annexed her clan from the greater Ardent Mage nation and struck out for new territory. The suffering must be great, even magnificent, if she is to prepare the Ardent Mages for the endtimes."
 		
 		"introduction": "Good day, fellow sufferer. May the agony make us all stronger.",
-		"neutralHello": "We are content that our relations are peaveful. We trust you don't plan to change this.",
+		"neutralHello": "We are content that our relations are peaceful. We trust you don't plan to change this.",
 		"hateHello": "When the time comes for agony and mortification, we will see that you are at the top of the list.",
 		"declaringWar": "This peace settles nothing. We welcome the heat of war!",
 		"attacked": "We welcome the agony of war; we shall see if you are as well prepared!",
@@ -239,7 +243,6 @@
 			"City-State Influence recovers at twice the normal rate", 
 			"[+25]% [Food] from City-States",
 			"[+25]% [Culture] from City-States",
-			"[+25]% [Faith] from City-States",
 			"Military Units gifted from City-States start with [+10] XP",
 			"Starts with [Empire Mint]","Starts with [Language Square]"
 			],

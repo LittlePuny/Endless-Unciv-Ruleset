@@ -24,7 +24,7 @@
     {
         "name": "Flying",
         "movementType": "Land"
-		"uniques": ["Can pass through impassable tiles","All tiles costs 1"]
+		"uniques": ["Can pass through impassable tiles","All tiles cost 1 movement"]
     },
     {
         "name": "Support",

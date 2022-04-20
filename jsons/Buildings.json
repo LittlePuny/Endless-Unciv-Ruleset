@@ -289,6 +289,21 @@
     },
 	
 	{
+		"name": "Strategic Exports",
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+2 Gold] from [Strategic resource] tiles [in this city]",
+		"requiredTech": "Imperial Coinage"
+    },
+	{
+		"name": "Luxury Exports",
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+2 Gold] from [Luxury resource] tiles [in this city]",
+		"requiredTech": "Imperial Coinage"
+    },
+	
+	{
 		"name": "Alchemy Workshop",
 		"science": 2,
 		"percentStatBonus": {"science": 15},
@@ -471,6 +486,7 @@
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
 		"requiredTech": "End of Ages"
 	},
+	
 		// Wild Walkers
 		// Broken Lords
 			//broken lords population buy/produce mechanic
@@ -680,7 +696,7 @@
             "+15% growth [in all cities]"
 			"Can only be built [in annexed cities]"
 			],
-		"requiredTech": "Age of Discovery"
+		"requiredTech": "Mercenary Market"
     },
 			//necrophage cadaver mechanic
 		

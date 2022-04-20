@@ -158,6 +158,20 @@ PolicyIcons/EL3
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/EL4
+  rotate: false
+  xy: 1984, 1984
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/EL5
+  rotate: false
+  xy: 1984, 1984
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/IL1
   rotate: false
   xy: 1252, 1044
@@ -173,6 +187,20 @@ PolicyIcons/IL2
   offset: 0, 0
   index: -1
 PolicyIcons/IL3
+  rotate: false
+  xy: 1252, 1044
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/IL4
+  rotate: false
+  xy: 1252, 1044
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/IL5
   rotate: false
   xy: 1252, 1044
   size: 50, 50
@@ -200,6 +228,20 @@ PolicyIcons/ML3
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/ML4
+  rotate: false
+  xy: 1360, 1152
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/ML5
+  rotate: false
+  xy: 1360, 1152
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/PL1
   rotate: false
   xy: 1776, 1571
@@ -215,6 +257,20 @@ PolicyIcons/PL2
   offset: 0, 0
   index: -1
 PolicyIcons/PL3
+  rotate: false
+  xy: 1776, 1571
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+PolicyIcons/PL4
+  rotate: false
+  xy: 1776, 1571
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+PolicyIcons/PL5
   rotate: false
   xy: 1776, 1571
   size: 48, 47
@@ -242,6 +298,20 @@ PolicyIcons/RL3
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/RL4
+  rotate: false
+  xy: 1568, 1360
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/RL5
+  rotate: false
+  xy: 1568, 1360
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/SL1
   rotate: false
   xy: 628, 216
@@ -257,6 +327,20 @@ PolicyIcons/SL2
   offset: 0, 0
   index: -1
 PolicyIcons/SL3
+  rotate: false
+  xy: 628, 216
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+PolicyIcons/SL4
+  rotate: false
+  xy: 628, 216
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+PolicyIcons/SL5
   rotate: false
   xy: 628, 216
   size: 48, 46

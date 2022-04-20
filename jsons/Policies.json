@@ -41,6 +41,25 @@
                 "row": 1,
                 "column": 5
             },
+			{
+                "name": "IL4",
+                "uniques": [
+					"Quantity of strategic resources produced by the empire +[25]%",
+					"[+1 Production] from [Strategic resource] tiles [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+			{
+                "name": "IL5",
+                "uniques": [
+					"[+50]% Yield from every [Manufactory]",
+					"[+50]% Yield from every [Industry Pillar]",
+					"[Great Engineer] is earned [50]% faster"
+                ],
+                "row": 2,
+                "column": 4
+            },
             {
                 "name": "Industrialists Complete",
                 "uniques": [
@@ -69,7 +88,7 @@
                 "name": "SL1",
                 "uniques": [
                     "[+1 Science] [in all cities]"
-					"[+5]% [Science] [in all cities]"
+					"[+10]% [Science] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -91,6 +110,24 @@
                 ],
                 "row": 1,
                 "column": 5
+            },
+			{
+                "name": "SL4",
+                "uniques": [
+					"[+1 Science] from [Bonus resource] tiles [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+			{
+                "name": "SL5",
+                "uniques": [
+					"[+25]% Yield from every [Academy]",
+					"[+25]% Yield from every [Science Pillar]",
+					"[Great Scientist] is earned [50]% faster"
+                ],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Scientists Complete",
@@ -143,6 +180,24 @@
                 "row": 1,
                 "column": 5
             },
+			{
+                "name": "PL4",
+                "uniques": [
+					"Gifts of Gold to City-States generate [25]% more Influence"
+                ],
+                "row": 2,
+                "column": 2
+            },
+			{
+                "name": "PL5",
+                "uniques": [
+					"[+25]% Yield from every [Customs House]",
+					"[+25]% Yield from every [Dust Pillar]",
+					"[Great Merchant] is earned [50]% faster"
+                ],
+                "row": 2,
+                "column": 4
+            },
             {
                 "name": "Pacifists Complete",
                 "uniques": [
@@ -192,6 +247,24 @@
                 ],
                 "row": 1,
                 "column": 5
+            },
+			{
+                "name": "EL4",
+                "uniques": [
+					"[+1 Food] from [Bonus resource] tiles [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+			{
+                "name": "EL5",
+                "uniques": [
+					"[+25]% Yield from every [Greenhouse]",
+					"[+25]% Yield from every [Food Pillar]",
+					"[Great Farmer] is earned [50]% faster"
+                ],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Ecologists Complete",
@@ -243,6 +316,24 @@
                 "row": 1,
                 "column": 5
             },
+			{
+                "name": "RL4",
+                "uniques": [
+					"[+1 Food] from [Bonus resource] tiles [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+			{
+                "name": "RL5",
+                "uniques": [
+					"[+25]% Yield from every [Landmark]",
+					"[+25]% Yield from every [Influence Pillar]",
+					"[Great Farmer] is earned [50]% faster"
+                ],
+                "row": 2,
+                "column": 4
+            },
             {
                 "name": "Religious Complete",
                 "uniques": [
@@ -271,7 +362,7 @@
 			{
                 "name": "ML1",
                 "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -292,6 +383,24 @@
                 ],
                 "row": 1,
                 "column": 5
+            },
+			{
+                "name": "ML4",
+                "uniques": [
+					"Earn [15]% of killed [Military] unit's [Strength] as [Gold]"
+					"Earn [15]% of killed [Military] unit's [Strength] as [Science]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+			{
+                "name": "ML5",
+                "uniques": [
+					"[Great General] is earned [50]% faster"
+					"[Great Admiral] is earned [50]% faster"
+                ],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Militarists Complete",

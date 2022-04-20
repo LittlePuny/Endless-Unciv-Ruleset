@@ -137,7 +137,7 @@
 				"row": 8,
 				"prerequisites": ["Age of Discovery"],
 				"quote": ""
-				"uniques": ["May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([500])","Gain a free [TPA15] [in capital]"]
+				"uniques": ["May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([500])","May buy [Great Admiral] units for [1000] [Gold] [in all coastal cities] at an increasing price ([500])","Gain a free [TPA15] [in capital]"]
 			},
 			{
 				"name": "Military Science",
