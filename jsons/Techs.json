@@ -846,42 +846,42 @@
 				"row": 1,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+50]% [Food]"]
+				"uniques": ["[+50]% [Food]","Gain a free [EoAP1] [in capital]"]
 			},
 			{
 				"name": "Dust-Driven Distillery",
 				"row": 3,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+50]% [Gold]"]
+				"uniques": ["[+50]% [Gold]","Gain a free [EoAP2] [in capital]"]
 			},
 			{
 				"name": "Difference Engine",
 				"row": 5,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+50]% [Science]"]
+				"uniques": ["[+50]% [Science]","Gain a free [EoAP3] [in capital]"]
 			},
 			{
 				"name": "Endless Alloys",
 				"row": 7,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+50]% [Production]"]
+				"uniques": ["[+50]% [Production]","Gain a free [EoAP4] [in capital]"]
 			},
 			{
 				"name": "United Empires Council",
 				"row": 9,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+50]% [Culture]"]
+				"uniques": ["[+50]% [Culture]","Gain a free [EoAP5] [in capital]"]
 			},
 			{
 				"name": "Serum of Iteru",
 				"row": 11,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+50]% Strength"]
+				"uniques": ["[+50]% Strength","Gain a free [EoAP6] [in capital]"]
 			},
 		]	
 	}

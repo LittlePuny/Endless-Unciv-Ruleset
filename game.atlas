@@ -459,154 +459,161 @@ ResourceIcons/Emerald
   orig: 200, 200
   offset: 0, 0
   index: -1
+ResourceIcons/End of Ages Point
+  rotate: false
+  xy: 836, 1834
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tech Point
+  rotate: false
+  xy: 836, 1834
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ResourceIcons/Glassteel
   rotate: false
-  xy: 212, 1002
+  xy: 420, 1210
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Gold Ore
   rotate: false
-  xy: 628, 1418
+  xy: 836, 1626
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Grassilk
   rotate: false
-  xy: 836, 1626
+  xy: 1044, 1834
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Guardian Point
   rotate: false
-  xy: 1044, 1834
+  xy: 4, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Hydromiel
   rotate: false
-  xy: 212, 794
+  xy: 420, 1002
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Hyperium
   rotate: false
-  xy: 420, 1002
+  xy: 628, 1210
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Ionic Crystals
   rotate: false
-  xy: 628, 1210
+  xy: 836, 1418
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Jadonyx
   rotate: false
-  xy: 836, 1418
+  xy: 1044, 1626
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Mercurite
   rotate: false
-  xy: 628, 1002
+  xy: 836, 1210
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Mithrite
   rotate: false
-  xy: 836, 1210
+  xy: 1044, 1418
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Moonleaf
   rotate: false
-  xy: 1044, 1418
+  xy: 1252, 1626
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Palladian
   rotate: false
-  xy: 1252, 1626
+  xy: 1460, 1834
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Pixie Blood
   rotate: false
-  xy: 4, 170
+  xy: 212, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Quicksilver
   rotate: false
-  xy: 628, 794
+  xy: 836, 1002
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Redsang
   rotate: false
-  xy: 836, 1002
+  xy: 1044, 1210
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Spices
   rotate: false
-  xy: 212, 170
+  xy: 420, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Strong Dust Anomaly
   rotate: false
-  xy: 420, 378
+  xy: 628, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Strong Food Anomaly
   rotate: false
-  xy: 420, 378
+  xy: 628, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Strong Industry Anomaly
   rotate: false
-  xy: 420, 378
+  xy: 628, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Strong Science Anomaly
   rotate: false
-  xy: 420, 378
+  xy: 628, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Superspuds
-  rotate: false
-  xy: 836, 794
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tech Point
   rotate: false
   xy: 1044, 1002
   size: 200, 200
@@ -678,140 +685,140 @@ StatIcons/Culture
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 4, 794
+  xy: 212, 1002
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 420, 1210
+  xy: 628, 1418
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 4, 586
+  xy: 212, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Malcontent
   rotate: false
-  xy: 212, 586
+  xy: 420, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Population
   rotate: false
-  xy: 212, 378
+  xy: 420, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Specialist
   rotate: false
-  xy: 212, 378
+  xy: 420, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Production
   rotate: false
-  xy: 420, 586
+  xy: 628, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Resistance
   rotate: false
-  xy: 1044, 1210
+  xy: 1252, 1418
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 1252, 1418
+  xy: 1460, 1626
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/FalloutOverlay
   rotate: false
-  xy: 836, 1834
+  xy: 4, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/JungleOverlay
   rotate: false
-  xy: 1044, 1626
+  xy: 1252, 1834
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Kelp Forest CoreOverlay
   rotate: false
-  xy: 1252, 1834
+  xy: 4, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Kelp ForestOverlay
   rotate: false
-  xy: 1252, 1834
+  xy: 4, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Lava SwirlOverlay
   rotate: false
-  xy: 4, 378
+  xy: 212, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/MarshOverlay
   rotate: false
-  xy: 420, 794
+  xy: 628, 1002
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Perpetual Storm CoreOverlay
   rotate: false
-  xy: 1460, 1834
+  xy: 4, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Perpetual StormOverlay
   rotate: false
-  xy: 1460, 1834
+  xy: 4, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Scorched WildlandOverlay
   rotate: false
-  xy: 1460, 1626
+  xy: 1668, 1834
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/Default/Sunken RuinsOverlay
   rotate: false
-  xy: 628, 586
+  xy: 836, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Setseke
   rotate: false
-  xy: 1668, 1834
+  xy: 212, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

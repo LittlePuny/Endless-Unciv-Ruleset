@@ -100,8 +100,8 @@
 	"uniques":
 		["Guaranteed with Strategic Balance resource option"
 		],
-	"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+	"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 },
 
 {
@@ -114,8 +114,8 @@
 	"uniques":[
 		"Guaranteed with Strategic Balance resource option"
 		],
-	"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+	"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 },
 
 {
@@ -127,8 +127,8 @@
 	"improvement": "Smelting Station",
 	"improvementStats": {"production": 1},
 	"uniques":[],
-	"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+	"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 },
 
 {
@@ -140,8 +140,8 @@
 	"improvement": "Smelting Station",
 	"improvementStats": {"production": 1},
 	"uniques":[],
-	"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+	"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 },
 
 {
@@ -153,8 +153,8 @@
 	"improvement": "Rare Metal Foundry",
 	"improvementStats": {"production": 2},
 	"uniques":[],
-	"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+	"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 },
 
 {
@@ -166,20 +166,29 @@
 	"improvement": "Rare Metal Foundry",
 	"improvementStats": {"production": 2},
 	"uniques":[],
-	"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-	"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+	"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 },
 	
 	{
 		"name": "Tech Point",
+		"science": 1
 		"resourceType": "Strategic",
 	},
 	{
 		"name": "Assimilation Point",
+		"faith": 1
 		"resourceType": "Strategic",
 	},
 	{
 		"name": "Guardian Point",
+		"gold": 1
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "End of Ages Point",
+		"revealedBy": "End of Ages",
+		"culture": 1
 		"resourceType": "Strategic",
 	},
 	

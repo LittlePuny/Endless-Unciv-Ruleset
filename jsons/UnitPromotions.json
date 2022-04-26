@@ -214,7 +214,19 @@
 	// Ardent Mages
 	{
 		"name": "Power Through Pain",
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": [
+		"Damage is ignored when determining unit Strength",
+		"[+5]% Strength <when below [100] HP>",
+		"[+5]% Strength <when below [90] HP>",
+		"[+5]% Strength <when below [80] HP>",
+		"[+5]% Strength <when below [70] HP>",
+		"[+5]% Strength <when below [60] HP>",
+		"[+5]% Strength <when below [50] HP>",
+		"[+5]% Strength <when below [40] HP>",
+		"[+5]% Strength <when below [30] HP>",
+		"[+5]% Strength <when below [20] HP>",
+		"[+5]% Strength <when below [10] HP>",
+		]
 	},
 	// Roving clans
 		//clan units have mounted benefits so no unique promotion

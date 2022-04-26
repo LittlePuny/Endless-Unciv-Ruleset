@@ -107,12 +107,11 @@
 	
 	{
 		"name": "Minor Palace",
-		"isNationalWonder": true,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"uniques": ["Unbuildable","Unsellable","Destroyed when the city is captured","Indicates the capital city","Consumes [100] [Tech Point]","Consumes [5] [Assimilation Point]","Consumes [10] [Guardian Point]"]
+		"uniques": ["Unbuildable","Unsellable","Destroyed when the city is captured","Consumes [100] [Tech Point]","Consumes [5] [Assimilation Point]","Consumes [10] [Guardian Point]","Consumes [5] [End of Ages Point]"]
 	},	
 	// Age of Discovery
 	{
@@ -269,6 +268,7 @@
 		"specialistSlots": {"Farmer": 1},
         "hurryCostModifier": 50,
         "uniques": [],
+		"requiredResource": "Glassteel",
 		"requiredTech": "Public Granary"
     },
 	
@@ -277,6 +277,7 @@
 		"maintenance": 2,
         "hurryCostModifier": 50,
         "uniques": ["[+1 Food] from [River] tiles [in this city]"],
+		"requiredResource": "Glassteel",
 		"requiredTech": "Aquacultural Science"
     },
 	{
@@ -286,6 +287,7 @@
         "uniques": [
 			"[+1 Food] from [Water] tiles [in this city]",
 			],
+		"requiredResource": "Glassteel",
 		"requiredTech": "Aquacultural Science"
     },
 	
@@ -314,6 +316,7 @@
 		"maintenance": 2,
         "hurryCostModifier": 50,
         "uniques": [],
+		"requiredResource": "Titanium",
 		"requiredTech": "Alchemy Workshop"
     },
 	
@@ -326,6 +329,7 @@
 			"[+1 Production] from [Jungle] tiles [in this city]",
 			"[+1 Production] from [Marsh] tiles [in this city]"
 			],
+		"requiredResource": "Titanium",
 		"requiredTech": "Management Science"
     },
 	{
@@ -337,8 +341,9 @@
 			"[+1 Production] from [Alchemist's Furnace] tiles [in this city]",
 			"[+1 Production] from [Smelting Station] tiles [in this city]",
 			"[+1 Production] from [Rare Metal Foundry] tiles [in this city]",
-			"[+1 Production] from [Manufactory] tiles [in this city]"
+			"[+1 Production] from [Great Improvement] tiles [in this city]"
 			],
+		"requiredResource": "Titanium",
 		"requiredTech": "Management Science"
     },
 	
@@ -359,6 +364,7 @@
 		"specialistSlots": {"Engineer": 2},
         "hurryCostModifier": 50,
         "uniques": ["[+2 Production] from every specialist [in this city]"],
+		"requiredResource": "Titanium",
 		"requiredTech": "Hydrology"
     },
 	
@@ -386,6 +392,7 @@
 		"happiness": 4,
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% [Food] [in this city] <while the empire is happy>","[+10]% [Gold] [in this city] <while the empire is happy>"],
+		"requiredResource": "Glassteel",
 		"requiredTech": "Central Market"
 	},
 	
@@ -411,7 +418,9 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"[+2 Food] from [Land Exploitation] tiles [in this city]",
+			"[+2 Food] from [Great Improvement] tiles [in this city]"
 			]
+		"requiredResource": "Palladian",
 		"requiredTech": "Plow Factory"
     },
 	
@@ -421,6 +430,7 @@
 		"percentStatBonus": {"gold": 30},
         "hurryCostModifier": 50,
         "uniques": []
+		"requiredResource": "Glassteel",
 		"requiredTech": "Dust Refinery"
     },
 	
@@ -429,6 +439,7 @@
 		"specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 50,
         "uniques": []
+		"requiredResource": "Glassteel",
 		"requiredTech": "Dust Alchemy"
     },
 	{
@@ -437,6 +448,7 @@
         "uniques": [
 			"[+2 Gold] from [Natural Gold] tiles [in this city]",
 			]
+		"requiredResource": "Glassteel",
 		"requiredTech": "Dust Alchemy"
     },
 	
@@ -447,6 +459,7 @@
 		"maintenance": 3,
         "hurryCostModifier": 50,
         "uniques": [],
+		"requiredResource": "Titanium",
 		"requiredTech": "Statistical Methods"
     },
 	{
@@ -455,6 +468,7 @@
 		"maintenance": 3,
         "hurryCostModifier": 50,
         "uniques": ["[+5 Science] from [Bonus resource] tiles [in this city]"],
+		"requiredResource": "Titanium",
 		"requiredTech": "Statistical Methods"
     },
 	
@@ -463,6 +477,7 @@
 		"maintenance": 3,
         "hurryCostModifier": 50,
         "uniques": ["[+3 Science] from [Water] tiles [in this city]"],
+		"requiredResource": "Titanium",
 		"requiredTech": "Fluid Biomechanics"
     },
 	{
@@ -471,6 +486,7 @@
 		"maintenance": 3,
         "hurryCostModifier": 50,
         "uniques": ["[+3 Science] from [River] tiles [in this city]"],
+		"requiredResource": "Titanium",
 		"requiredTech": "Fluid Biomechanics"
     },
 	
@@ -498,11 +514,12 @@
     },
 	
 	{
-		"name": "Public Museum",
+		"name": "National Museum",
 		"culture": 4,
 		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 40,
 		"maintenance": 3,
+		"uniques": ["Consumes [1] [Palladian]","Consumes [1] [Adamantian]"],
 		"requiredTech": "Public Works"
 	},
 	{
@@ -511,6 +528,7 @@
 		"percentStatBonus": {"culture": 50},
 		"hurryCostModifier": 40,
 		"maintenance": 3,
+		"requiredResource": "Titanium",
 		"requiredTech": "Public Works"
 	},
 	
@@ -525,6 +543,7 @@
 		"name": "Inquisitors' Divinity",
 		"hurryCostModifier": 25,
 		"requiredTech": "Unexpected Allies",
+		"requiredResource": "Adamantian",
 		"uniques": ["This building will increase city's security against spies so its worthless for now"]
 	},
 	{
@@ -533,6 +552,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredTech": "Unexpected Allies",
+		"requiredResource": "Palladian",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	
@@ -541,6 +561,7 @@
 		"cityStrength": 10,
 		"hurryCostModifier": 25,
 		"requiredTech": "Borough Government",
+		"requiredResource": "Titanium",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -548,6 +569,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Borough Government",
+		"requiredResource": "Titanium",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -555,6 +577,7 @@
 		"maintenance": 3
 		"hurryCostModifier": 25,
 		"requiredTech": "Borough Government",
+		"requiredResource": "Palladian",
 		"uniques": ["[Wounded] Units adjacent to this city heal [10] HP per turn when healing"]
 	},
 	
@@ -566,6 +589,7 @@
         "uniques": [
 			"[+3 Food] from [Natural Food] tiles [in this city]",
 			]
+		"requiredResource": "Palladian",
 		"requiredTech": "Nutrition Chemistry"
     },
 	{
@@ -574,7 +598,9 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"[+3 Food] from [Land Exploitation] tiles [in this city]",
+			"[+3 Food] from [Great Improvement] tiles [in this city]"
 			]
+		"requiredResource": "Palladian",
 		"requiredTech": "Nutrition Chemistry"
     },
 	
@@ -586,6 +612,7 @@
 		"specialistSlots": {"Farmer": 1},
         "hurryCostModifier": 50,
         "uniques": [],
+		"requiredResource": "Palladian",
 		"requiredTech": "Isolation Sciences"
     },
 	{
@@ -594,6 +621,7 @@
 		"food": 10,
         "hurryCostModifier": 50,
         "uniques": ["[50]% Food is carried over after population increases [in this city]"],
+		"requiredResource": "Palladian",
 		"requiredTech": "Isolation Sciences"
     },
 	
@@ -604,7 +632,8 @@
         "uniques": [
 			"[+3 Science] from [Natural Science] tiles [in this city]",
 			]
-		"requiredTech": "Nutrition Chemistry"
+		"requiredResource": "Hyperium",
+		"requiredTech": "Imperial Funding"
     },
 
 	{
@@ -615,6 +644,7 @@
 		"specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 50,
         "uniques": []
+		"requiredResource": "Adamantian",
 		"requiredTech": "Industrial Processing"
     },
 	{
@@ -622,6 +652,7 @@
 		"maintenance": 4,
         "hurryCostModifier": 50,
         "uniques": ["Provides 1 extra copy of each improved luxury resource near this City"]
+		"requiredResource": "Adamantian",
 		"requiredTech": "Industrial Processing"
     },
 	
@@ -632,7 +663,8 @@
         "uniques": [
 			"[+3 Production] from [Natural Production] tiles [in this city]",
 			]
-		"requiredTech": "Nutrition Chemistry"
+		"requiredResource": "Titanium",
+		"requiredTech": "Borer's Guild"
     },
 	{
 		"name": "Mining Rights",
@@ -641,7 +673,8 @@
         "uniques": [
 			"Double quantity of Strategic resource produced in city",
 			]
-		"requiredTech": "Nutrition Chemistry"
+		"requiredResource": "Titanium",
+		"requiredTech": "Borer's Guild"
     },
 
 	{
@@ -680,12 +713,14 @@
 		"hurryCostModifier": 25,
 		"maintenance": 4,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredResource": "Hyperium",
 		"requiredTech": "Civic Instructions",
 	},
 	{
 		"name": "National Military College"
 		"isNationalWonder": true,
 		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Morale] promotion"],
+		"requiredResource": "Palladian",
 		"requiredTech": "Civic Instructions",
 	},
 	// Age of Heroes
@@ -695,6 +730,7 @@
         "uniques": [
 			"[+5 Gold] from [Natural Gold] tiles [in this city]",
 			]
+		"requiredResource": "Mithrite",
 		"requiredTech": "Improved Dust Alchemies"
     },
 	{
@@ -702,6 +738,7 @@
 		"maintenance": 5,
         "hurryCostModifier": 50,
         "uniques": ["Provides 1 extra copy of each improved luxury resource near this City"]
+		"requiredResource": "Glassteel",
 		"requiredTech": "Improved Dust Alchemies"
     },
 	
@@ -711,6 +748,7 @@
 		"percentStatBonus": {"gold": 40},
         "hurryCostModifier": 50,
         "uniques": []
+		"requiredResource": "Mithrite",
 		"requiredTech": "Town Criers"
     },
 	
@@ -719,6 +757,7 @@
 		"happiness": 4,
         "hurryCostModifier": 50,
         "uniques": ["[+10]% [Food] [in this city] <while the empire is happy>","[+10]% [Production] [in this city] <while the empire is happy>","[+10]% [Gold] [in this city] <while the empire is happy>","[+10]% [Science] [in this city] <while the empire is happy>","[+10]% [Culture] [in this city] <while the empire is happy>"]
+		"requiredResource": "Mithrite",
 		"requiredTech": "Imperial News Network"
     },
 	
@@ -726,7 +765,7 @@
 		"name": "Arena of Champions",
 		"isNationalWonder": true,
         "hurryCostModifier": 50,
-        "uniques": ["[+100]% [Culture] [in this city]"]
+        "uniques": ["[+100]% [Culture] [in this city]","Consumes [1] [Adamantian]","Consumes [1] [Palladian]"]
 		"requiredTech": "Dust-Enhanced Buildings"
     },
 	{
@@ -734,6 +773,7 @@
 		"isNationalWonder": true,
         "hurryCostModifier": 50,
         "uniques": ["[+50]% Great Person generation [in this city]"]
+		"requiredResource": "Mithrite",
 		"requiredTech": "Dust-Enhanced Buildings"
     },
 	
@@ -742,6 +782,7 @@
 		"isNationalWonder": true,
         "hurryCostModifier": 50,
         "uniques": ["[+100]% [Science] [in this city]"]
+		"requiredResource": "Hyperium",
 		"requiredTech": "Scientific Specialization"
     },
 	{
@@ -749,6 +790,7 @@
 		"isNationalWonder": true,
         "hurryCostModifier": 50,
         "uniques": ["[+1 Science] per [1] population [in this city]"]
+		"requiredResource": "Hyperium",
 		"requiredTech": "Scientific Specialization"
     },
 	
@@ -757,6 +799,7 @@
 		"isNationalWonder": true,
         "hurryCostModifier": 50,
         "uniques": ["[+10 Production] from [Strategic resource] tiles [in this city]"]
+		"requiredResource": "Adamantian",
 		"requiredTech": "Advanced Quary"
     },
 	
@@ -785,6 +828,7 @@
 		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 40,
 		"maintenance": 5,
+		"uniques": ["Consumes [1] [Adamantian]","Consumes [1] [Palladian]"]
 		"requiredTech": "Modernized Administrator"
 	},
 	{
@@ -792,6 +836,7 @@
 		"isNationalWonder": true,
 		"hurryCostModifier": 40,
 		"uniques": ["[+100]% [Gold] from Trade Routes"]
+		"requiredResource": "Hyperium",
 		"requiredTech": "Modernized Administrator"
 	},
 	
@@ -800,6 +845,7 @@
 		"happiness": 4,
         "hurryCostModifier": 50,
         "uniques": ["[-50]% Unhappiness from [Specialists] [in this city]","[+10]% [Science] [in this city] <while the empire is happy>","[+10]% [Culture] [in this city] <while the empire is happy>"]
+		"requiredResource": "Mithrite",
 		"requiredTech": "Arts Council"
     },
 	
@@ -808,17 +854,73 @@
 		"isNationalWonder": true,
 		"hurryCostModifier": 40,
 		"uniques": ["[+100]% [Gold] from Trade Routes"]
+		"requiredResource": "Titanium",		
 		"requiredTech": "Enlightened Trade"
 	},
 	// End of Ages
 	
 	{
 		"name": "Temple of Earth's Core",
-		"cost": 3000,
+		"cost": 6000,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
+		"uniques": ["Hidden until [3] social policy branches have been completed", "Triggers a global alert upon build start", "Hidden when [Wonder] Victory is disabled"]
 		"requiredTech": "End of Ages"
+	},
+	{
+		"name": "Scientific Victory",
+		"requiredBuilding": "Palace",
+		"cost": -1,
+		"uniques": ["Consumes [5] [End of Ages Point]","Hidden when [Scientific] Victory is disabled"]
+		"requiredTech": "End of Ages"
+	},
+	
+	{
+		"name": "EoAP1",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [End of Ages Point]","Triggers a global alert upon completion"]
+		"requiredTech": "Self Driving Plows"
+	},
+	{
+		"name": "EoAP2",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [End of Ages Point]","Triggers a global alert upon completion"]
+		"requiredTech": "Dust-Driven Distillery"
+	},
+	{
+		"name": "EoAP3",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [End of Ages Point]","Triggers a global alert upon completion"]
+		"requiredTech": "Difference Engine"
+	},
+	{
+		"name": "EoAP4",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [End of Ages Point]","Triggers a global alert upon completion"]
+		"requiredTech": "Endless Alloys"
+	},
+	{
+		"name": "EoAP5",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [End of Ages Point]","Triggers a global alert upon completion"]
+		"requiredTech": "United Empires Council"
+	},
+	{
+		"name": "EoAP6",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [End of Ages Point]","Triggers a global alert upon completion"]
+		"requiredTech": "Serum of Iteru"
 	},
 	
 		// Wild Walkers
