@@ -104,6 +104,16 @@
 		"uniques": ["Provides [1] [Assimilation Point]"]
 		"requiredTech": "Cultural Indocrination"
 	},
+	
+	{
+		"name": "Minor Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"uniques": ["Unbuildable","Unsellable","Destroyed when the city is captured","Indicates the capital city","Consumes [100] [Tech Point]","Consumes [5] [Assimilation Point]","Consumes [10] [Guardian Point]"]
+	},	
 	// Age of Discovery
 	{
 		"name": "Seed Storage",
@@ -135,10 +145,7 @@
 		"name": "Dust Filtration",
         "hurryCostModifier": 50,
         "uniques": [
-			"[+1 Gold] from [Ocean] tiles [in this city]",
-			"[+1 Gold] from [Coast] tiles [in this city]",
-			"[+1 Gold] from [Lake] tiles [in this city]",
-			"[+1 Gold] from [Oasis] tiles [in this city]",
+			"[+1 Gold] from [Water] tiles [in this city]",
 			],
 		"requiredTech": "Aquapulvistics"
     },
@@ -166,10 +173,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Science] from [Tundra] tiles [in this city]",
-			"[+1 Science] from [Snow] tiles [in this city]",
-			"[+1 Science] from [Dirt Field] tiles [in this city]",
-			"[+1 Science] from [Rock Field] tiles [in this city]",
+			"[+1 Science] from [Natural Science] tiles [in this city]",
 			],
 		"requiredTech": "Topography"
 	},
@@ -280,10 +284,7 @@
 		"maintenance": 2,
         "hurryCostModifier": 50,
         "uniques": [
-			"[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+1 Food] from [Lake] tiles [in this city]",
-			"[+1 Food] from [Oasis] tiles [in this city]"
+			"[+1 Food] from [Water] tiles [in this city]",
 			],
 		"requiredTech": "Aquacultural Science"
     },
@@ -293,6 +294,7 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"[+2 Gold] from [Strategic resource] tiles [in this city]",
+			],
 		"requiredTech": "Imperial Coinage"
     },
 	{
@@ -300,6 +302,7 @@
         "hurryCostModifier": 50,
         "uniques": [
 			"[+2 Gold] from [Luxury resource] tiles [in this city]",
+			],
 		"requiredTech": "Imperial Coinage"
     },
 	
@@ -321,7 +324,7 @@
         "uniques": [
 			"[+1 Production] from [Forest] tiles [in this city]",
 			"[+1 Production] from [Jungle] tiles [in this city]",
-			"[+1 Production] from [Enchanted Forest] tiles [in this city]"
+			"[+1 Production] from [Marsh] tiles [in this city]"
 			],
 		"requiredTech": "Management Science"
     },
@@ -330,7 +333,7 @@
 		"maintenance": 2,
         "hurryCostModifier": 50,
         "uniques": [
-			"[+1 Production] from [Industry Exploitation] tiles [in this city]",
+			"[+1 Production] from [Land Exploitation] tiles [in this city]",
 			"[+1 Production] from [Alchemist's Furnace] tiles [in this city]",
 			"[+1 Production] from [Smelting Station] tiles [in this city]",
 			"[+1 Production] from [Rare Metal Foundry] tiles [in this city]",
@@ -344,13 +347,9 @@
 		"maintenance": 2,
         "hurryCostModifier": 50,
         "uniques": [
-			"[+1 Production] from [Hill] tiles [in this city]",
-			"[+1 Production] from [Forest] tiles [in this city]",
-			"[+1 Production] from [Jungle] tiles [in this city]",
-			"[+1 Production] from [Fallout] tiles [in this city]",
-			"[+1 Production] from [Flood plains] tiles [in this city]",
-			"[+1 Production] from [Marsh] tiles [in this city]"]
-		"requiredTech": "Hydrology"
+			"[+1 Production] from [Natural Production] tiles [in this city]",
+			],
+		"requiredTech": "Hydrology",
     },
 	{
 		"name": "Canal Locks",
@@ -406,12 +405,79 @@
 		"requiredTech": "Citizen Armies",
 	},
 	// Age of Enlightenment
+	{
+		"name": "Plow Factory",
+		"maintenance": 3,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+2 Food] from [Land Exploitation] tiles [in this city]",
+			]
+		"requiredTech": "Plow Factory"
+    },
 	
+	{
+		"name": "Dust Refinery",
+		"gold": 5,
+		"percentStatBonus": {"gold": 30},
+        "hurryCostModifier": 50,
+        "uniques": []
+		"requiredTech": "Dust Refinery"
+    },
+	
+	{
+		"name": "Dust Depository",
+		"specialistSlots": {"Merchant": 2},
+        "hurryCostModifier": 50,
+        "uniques": []
+		"requiredTech": "Dust Alchemy"
+    },
+	{
+		"name": "Dust Transmuter",
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+2 Gold] from [Natural Gold] tiles [in this city]",
+			]
+		"requiredTech": "Dust Alchemy"
+    },
+	
+	{
+		"name": "Advanced Alchemy Lab",
+		"science": 5,
+		"specialistSlots": {"Scientist": 2},
+		"maintenance": 3,
+        "hurryCostModifier": 50,
+        "uniques": [],
+		"requiredTech": "Statistical Methods"
+    },
+	{
+		"name": "Cryometric Monitors",
+		"isNationalWonder": true,
+		"maintenance": 3,
+        "hurryCostModifier": 50,
+        "uniques": ["[+5 Science] from [Bonus resource] tiles [in this city]"],
+		"requiredTech": "Statistical Methods"
+    },
+	
+	{
+		"name": "Large-Scale Aquatic Center",
+		"maintenance": 3,
+        "hurryCostModifier": 50,
+        "uniques": ["[+3 Science] from [Water] tiles [in this city]"],
+		"requiredTech": "Fluid Biomechanics"
+    },
+	{
+		"name": "Hydromatic Laboratory",
+		"isNationalWonder": true,
+		"maintenance": 3,
+        "hurryCostModifier": 50,
+        "uniques": ["[+3 Science] from [River] tiles [in this city]"],
+		"requiredTech": "Fluid Biomechanics"
+    },
 	
 	{
 		"name": "Uncommon Adamantian Forges",
 		"requiredResource": "Adamantian",
-		"maintenance": 4,
+		"maintenance": 3,
         "hurryCostModifier": 50,
         "uniques": [
 			"All newly-trained [Military] units [in this city] receive the [Adamantian Equipments I] promotion",
@@ -422,7 +488,7 @@
 	{
 		"name": "Uncommon Palladian Forges",
 		"requiredResource": "Palladian",
-		"maintenance": 4,
+		"maintenance": 3,
         "hurryCostModifier": 50,
         "uniques": [
 			"All newly-trained [Military] units [in this city] receive the [Palladian Equipments I] promotion",
@@ -430,9 +496,154 @@
 			],
 		"requiredTech": "Uncommon Alloys"
     },
+	
+	{
+		"name": "Public Museum",
+		"culture": 4,
+		"specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 40,
+		"maintenance": 3,
+		"requiredTech": "Public Works"
+	},
+	{
+		"name": "National Arena",
+		"isNationalWonder": true,
+		"percentStatBonus": {"culture": 50},
+		"hurryCostModifier": 40,
+		"maintenance": 3,
+		"requiredTech": "Public Works"
+	},
+	
+	{
+		"name": "Caravanserai",
+		"hurryCostModifier": 40,
+		"uniques": ["[+50]% [Gold] from Trade Routes"]
+		"requiredTech": "Highway Outposts"
+	},
+	
+	{
+		"name": "Inquisitors' Divinity",
+		"hurryCostModifier": 25,
+		"requiredTech": "Unexpected Allies",
+		"uniques": ["This building will increase city's security against spies so its worthless for now"]
+	},
+	{
+		"name": "Bells and Whistles",
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Unexpected Allies",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Imperial Kennels",
+		"cityStrength": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Borough Government",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Materials Hoard",
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Borough Government",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Medical Center",
+		"maintenance": 3
+		"hurryCostModifier": 25,
+		"requiredTech": "Borough Government",
+		"uniques": ["[Wounded] Units adjacent to this city heal [10] HP per turn when healing"]
+	},
+	
 	// Age of Industryy
+	{
+		"name": "Fertilizer Plant",
+		"maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+3 Food] from [Natural Food] tiles [in this city]",
+			]
+		"requiredTech": "Nutrition Chemistry"
+    },
+	{
+		"name": "Hothouses",
+		"maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+3 Food] from [Land Exploitation] tiles [in this city]",
+			]
+		"requiredTech": "Nutrition Chemistry"
+    },
 	
+	{
+		"name": "Refrigirator Plant",
+		"maintenance": 4,
+		"food": 2,
+		"percentStatBonus": {"food": 15},
+		"specialistSlots": {"Farmer": 1},
+        "hurryCostModifier": 50,
+        "uniques": [],
+		"requiredTech": "Isolation Sciences"
+    },
+	{
+		"name": "Subterrarian Gardens",
+		"maintenance": 4,
+		"food": 10,
+        "hurryCostModifier": 50,
+        "uniques": ["[50]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Isolation Sciences"
+    },
 	
+	{
+		"name": "Imperial Funding",
+		"maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+3 Science] from [Natural Science] tiles [in this city]",
+			]
+		"requiredTech": "Nutrition Chemistry"
+    },
+
+	{
+		"name": "Production Line",
+		"maintenance": 4,
+		"production": 2,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 50,
+        "uniques": []
+		"requiredTech": "Industrial Processing"
+    },
+	{
+		"name": "National Craftworks",
+		"maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": ["Provides 1 extra copy of each improved luxury resource near this City"]
+		"requiredTech": "Industrial Processing"
+    },
+	
+	{
+		"name": "Automated Production",
+		"maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+3 Production] from [Natural Production] tiles [in this city]",
+			]
+		"requiredTech": "Nutrition Chemistry"
+    },
+	{
+		"name": "Mining Rights",
+		"maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+			"Double quantity of Strategic resource produced in city",
+			]
+		"requiredTech": "Nutrition Chemistry"
+    },
+
 	{
 		"name": "Rare Mithrite Forges",
 		"requiredResource": "Mithrite",
@@ -455,8 +666,99 @@
 			],
 		"requiredTech": "Rare Alloys"
     },
-	// Age of Heroes
 	
+	{
+		"name": "Cargo Docks",
+		"happiness": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Cargo Docks"
+	},
+	
+	{
+		"name": "Army Manual",
+		"hurryCostModifier": 25,
+		"maintenance": 4,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Civic Instructions",
+	},
+	{
+		"name": "National Military College"
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Morale] promotion"],
+		"requiredTech": "Civic Instructions",
+	},
+	// Age of Heroes
+	{
+		"name": "Dust Revitalizer",
+        "hurryCostModifier": 50,
+        "uniques": [
+			"[+5 Gold] from [Natural Gold] tiles [in this city]",
+			]
+		"requiredTech": "Improved Dust Alchemies"
+    },
+	{
+		"name": "Advanced Extractor",
+		"maintenance": 5,
+        "hurryCostModifier": 50,
+        "uniques": ["Provides 1 extra copy of each improved luxury resource near this City"]
+		"requiredTech": "Improved Dust Alchemies"
+    },
+	
+	{
+		"name": "Town Criers",
+		"gold": 50,
+		"percentStatBonus": {"gold": 40},
+        "hurryCostModifier": 50,
+        "uniques": []
+		"requiredTech": "Town Criers"
+    },
+	
+	{
+		"name": "Imperial News Network",
+		"happiness": 4,
+        "hurryCostModifier": 50,
+        "uniques": ["[+10]% [Food] [in this city] <while the empire is happy>","[+10]% [Production] [in this city] <while the empire is happy>","[+10]% [Gold] [in this city] <while the empire is happy>","[+10]% [Science] [in this city] <while the empire is happy>","[+10]% [Culture] [in this city] <while the empire is happy>"]
+		"requiredTech": "Imperial News Network"
+    },
+	
+	{
+		"name": "Arena of Champions",
+		"isNationalWonder": true,
+        "hurryCostModifier": 50,
+        "uniques": ["[+100]% [Culture] [in this city]"]
+		"requiredTech": "Dust-Enhanced Buildings"
+    },
+	{
+		"name": "The Octagon",
+		"isNationalWonder": true,
+        "hurryCostModifier": 50,
+        "uniques": ["[+50]% Great Person generation [in this city]"]
+		"requiredTech": "Dust-Enhanced Buildings"
+    },
+	
+	{
+		"name": "Living Lab Tools",
+		"isNationalWonder": true,
+        "hurryCostModifier": 50,
+        "uniques": ["[+100]% [Science] [in this city]"]
+		"requiredTech": "Scientific Specialization"
+    },
+	{
+		"name": "Climatology Guild",
+		"isNationalWonder": true,
+        "hurryCostModifier": 50,
+        "uniques": ["[+1 Science] per [1] population [in this city]"]
+		"requiredTech": "Scientific Specialization"
+    },
+	
+	{
+		"name": "Advanced Quary",
+		"isNationalWonder": true,
+        "hurryCostModifier": 50,
+        "uniques": ["[+10 Production] from [Strategic resource] tiles [in this city]"]
+		"requiredTech": "Advanced Quary"
+    },
 	
 	{
 		"name": "Marvelous Adamantian Forges",
@@ -476,6 +778,38 @@
 			"Only available <in cities without a [Marvelous Adamantian Forges]>"],
 		"requiredTech": "Marvelous Alloys"
     },
+	
+	{
+		"name": "Aura of Empire",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 40,
+		"maintenance": 5,
+		"requiredTech": "Modernized Administrator"
+	},
+	{
+		"name": "Customs Ministry",
+		"isNationalWonder": true,
+		"hurryCostModifier": 40,
+		"uniques": ["[+100]% [Gold] from Trade Routes"]
+		"requiredTech": "Modernized Administrator"
+	},
+	
+	{
+		"name": "Arts Council",
+		"happiness": 4,
+        "hurryCostModifier": 50,
+        "uniques": ["[-50]% Unhappiness from [Specialists] [in this city]","[+10]% [Science] [in this city] <while the empire is happy>","[+10]% [Culture] [in this city] <while the empire is happy>"]
+		"requiredTech": "Arts Council"
+    },
+	
+	{
+		"name": "Scientific Envoy",
+		"isNationalWonder": true,
+		"hurryCostModifier": 40,
+		"uniques": ["[+100]% [Gold] from Trade Routes"]
+		"requiredTech": "Enlightened Trade"
+	},
 	// End of Ages
 	
 	{
@@ -1205,4 +1539,432 @@
 		"requiredTech": "Unskilled Labour"
 	},
 	
+	{
+		"name": "TPC1",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Plow Factory"
+	},
+	{
+		"name": "TPC2",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Dust Refinery"
+	},
+	{
+		"name": "TPC3",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Dust Alchemy"
+	},
+	{
+		"name": "TPC4",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Reaping Station"
+	},
+	{
+		"name": "TPC5",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Statistical Methods"
+	},
+	{
+		"name": "TPC6",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Fluid Biomechanics"
+	},
+	{
+		"name": "TPC7",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Smelting Station"
+	},
+	{
+		"name": "TPC8",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Uncommon Alloys"
+	},
+	{
+		"name": "TPC9",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Bread and Circuses"
+	},
+	{
+		"name": "TPC10",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Public Works"
+	},
+	{
+		"name": "TPC11",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Highway Outposts"
+	},
+	{
+		"name": "TPC12",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Bathysphere"
+	},
+	{
+		"name": "TPC13",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Artillery Ship"
+	},
+	{
+		"name": "TPC14",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Unexpected Allies"
+	},
+	{
+		"name": "TPC15",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Borough Government"
+	},
+	{
+		"name": "TPC16",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Scyther"
+	},
+	{
+		"name": "TPC17",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Guardian of Dust"
+	},
+	
+	{
+		"name": "TPD1",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Nutrition Chemistry"
+	},
+	{
+		"name": "TPD2",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Isolation Sciences"
+	},
+	{
+		"name": "TPD3",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Advanced Harvester"
+	},
+	{
+		"name": "TPD4",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Anaerobic Microbiology"
+	},
+	{
+		"name": "TPD5",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Imperial Funding"
+	},
+	{
+		"name": "TPD6",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Industrial Processing"
+	},
+	{
+		"name": "TPD7",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Borer's Guild"
+	},
+	{
+		"name": "TPD8",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Rare Metal Foundry"
+	},
+	{
+		"name": "TPD9",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Rare Alloys"
+	},
+	{
+		"name": "TPD10",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Hospitality Den"
+	},
+	{
+		"name": "TPD11",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Cultural Indocrination"
+	},
+	{
+		"name": "TPD12",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Endless Mechanisms"
+	},
+	{
+		"name": "TPD13",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Cargo Docks"
+	},
+	{
+		"name": "TPD14",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Signal Corps"
+	},
+	{
+		"name": "TPD15",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Civic Instructions"
+	},
+	{
+		"name": "TPD16",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Mercenary Corps"
+	},
+	{
+		"name": "TPD17",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Brigade System"
+	},
+	{
+		"name": "TPD18",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Guardian of Earth"
+	},
+	{
+		"name": "TPD19",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Guardian of Fire"
+	},
+
+	{
+		"name": "TPE1",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Improved Dust Alchemies"
+	},
+	{
+		"name": "TPE2",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Town Criers"
+	},
+	{
+		"name": "TPE3",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Imperial News Network"
+	},
+	{
+		"name": "TPE4",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Dust-Enhanced Buildings"
+	},
+	{
+		"name": "TPE5",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Scientific Specialization"
+	},
+	{
+		"name": "TPE6",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Advanced Quary"
+	},
+	{
+		"name": "TPE7",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Volcanic Leecher"
+	},
+	{
+		"name": "TPE8",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Marvelous Alloys"
+	},
+	{
+		"name": "TPE9",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "State-Approved Theather"
+	},
+	{
+		"name": "TPE10",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Modernized Administrator"
+	},
+	{
+		"name": "TPE11",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Arts Council"
+	},
+	{
+		"name": "TPE12",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Enlightened Trade"
+	},
+	{
+		"name": "TPE13",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Military Reserve"
+	},
+	{
+		"name": "TPE14",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Innoculation Station"
+	},
+	{
+		"name": "TPE15",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Security Theory"
+	},
+	{
+		"name": "TPE16",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Guardian of Air"
+	},
+	{
+		"name": "TPE17",
+		"isNationalWonder": true,
+		"requiredBuilding": "Palace",
+		"cost": 0,
+		"uniques": ["Provides [1] [Tech Point]"]
+		"requiredTech": "Guardian of Water"
+	},
+
 ]
+

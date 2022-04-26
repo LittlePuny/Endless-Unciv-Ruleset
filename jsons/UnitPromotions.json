@@ -87,6 +87,10 @@
 		"name": "New Age Buffs V",
 		"uniques": ["[+10]% Strength"],
 	},
+	{
+		"name": "Morale",
+		"uniques": ["[+15]% Strength"],
+	},
 	
 	{
 		"name": "Infantry Slayer",

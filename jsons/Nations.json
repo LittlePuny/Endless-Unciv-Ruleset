@@ -60,7 +60,7 @@
 		"name": "Broken Lords",
 		"leaderName": "Baron Joslyn Deyval",
 		"adjective": ["Lord"],
-		"startBias":["Avoid [Grassland]"],
+		"startBias":["Dirt Field"],
 		"preferredVictoryType": "Neutral",
 
 		"startIntroPart1": "The Broken Lords are a faction of knights and town-builders; an aristocratic society that believes in honor, virtue and justice. To succor the weak, to champion what is just, to root out evil wherever it may lurk - those are the ideals by which these noble warriors would live. And yet, the Broken Lords are a crippled people that exist only as spirits wrapped in their great suits of Dust-enhanced armor. Other nations view them as monsters, for their race was fading when it discovered a deadly secret - that by consuming the life forces of a sentient being they could extend their own life span. This rite of consumption is, obviously, a betrayal of their principles and their history. The greatest hope of the Broken Lords, therefore is develop magic that will break this curse and allow them to live without destroying others."
@@ -77,17 +77,10 @@
 		"outerColor": [0,0,102],
 		"innerColor": [102,178,255],
 		"uniqueName": "Appetite for Dust",
-		"uniqueText": "Can't produce food from any source and can't naturally grow population\n Doesn't suffer starvation and can produce or buy population\n +1 Gold from tiles naturaly producing Gold\n Starts with Empire Mint\n Starts with Alchemist's Furnace",
 		"uniques": [
+			"Can't naturaly grow population. Can buy or create populations from building list",
+			"[+1 Gold] from every [Natural Gold]",
 			"Nullifies Growth [in all cities]",
-			"[+1 Gold] from every [Desert]",
-			"[+1 Gold] from every [Jungle]",
-			"[+1 Gold] from every [Plains]",
-			"[+1 Gold] from every [Dirt Field]",
-			"[+1 Gold] from every [Flood plains]",
-			"[+1 Gold] from every [Ocean]",
-			"[+1 Gold] from every [Perpetual Storm]",
-			"[+1 Gold] from every [Lake]",
 			"[-100 Food] from every [All]",
 			"[-100 Food] from every [Farmer]"
 			"Starts with [Empire Mint]","Starts with [Alchemist's Furnace]"
@@ -118,11 +111,7 @@
 		"uniqueName": "Holy Resources",
 		"uniques": [
 			"Quantity of strategic resources produced by the empire +[25]%",
-			"[+1 Science] from every [Snow]",
-			"[+1 Science] from every [Dirt Field]",
-			"[+1 Science] from every [Tundra]",
-			"[+1 Science] from every [Fallout]",
-			"[+1 Science] from every [Marsh]",
+			"[+1 Science] from every [Natural Science]",
 			"[Land] units gain the [Portal User] promotion",
 			"Starts with [Alchemist's Furnace]","Starts with [Topography]"
 			],
@@ -181,8 +170,9 @@
 		"outerColor": [153,0,0],
 		"innerColor": [51,255,255],
 		"uniqueName": "Power Through Pain",
-		"uniqueText": "Gain a free Great Person of your choice when you advance through ages.\n Your Great Improvements gain extra yields based on adjacent improvements.\n +20% Strength within 2 tiles of a Great Improvement. \n Starts with Public Library.\n Starts with Open-pit Mine",
 		"uniques": [
+			"Gains a free Great Person when advancing through ages",
+			"Great Improvements gain extra yields based on adjacent tile improvements",
 			"[+20]% Strength <within [2] tiles of a [Great Improvement]>",
 			"Starts with [Public Library]","Starts with [Open-pit Mine]"
 			],
@@ -439,7 +429,7 @@
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,255,51],
-		"uniques": [ "Gain a free [Bos Assimilated] [in capital]"]
+		"uniques": [ "Gain a free [Bos Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
 		"cities": ["Bos Village"]
 	},
 	{
@@ -452,7 +442,7 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [51,102,0],
-		"uniques": [ "Gain a free [Ceratan Assimilated] [in capital]"]
+		"uniques": [ "Gain a free [Ceratan Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
 		"cities": ["Ceratan Village"]
 	},
 	{
@@ -466,7 +456,7 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,97,255],
-		"uniques": [ "Gain a free [Delver Assimilated] [in capital]"]
+		"uniques": [ "Gain a free [Delver Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
 		"cities": ["Delver Village"]
 	},
 	{
@@ -479,10 +469,178 @@
 		"defeated": "What a fine battle! Dorgeshi is willing to serve you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [250,128,114],
-		"uniques": [ "Gain a free [Dorgeshi Assimilated] [in capital]"]
+		"uniques": [ "Gain a free [Dorgeshi Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
 		"cities": ["Dorgeshi Village"]
 	},
-	
+	{
+		"name": "Erycis",
+		"adjective": ["Erycis"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"uniques": [ "Gain a free [Erycis Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Erycis Village"]
+	},
+	{
+		"name": "Eyeless Ones",
+		"adjective": ["Eyeless"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"uniques": [ "Gain a free [Erycis Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Eyeless Village"]
+	},
+	{
+		"name": "Gauran",
+		"adjective": ["Gauran"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"uniques": [ "Gain a free [Gauran Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Gauran Village"]
+	},
+	{
+		"name": "Geldirus",
+		"adjective": ["Geldirus"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+		"uniques": [ "Gain a free [Geldirus Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Geldirus Village"]
+	},
+	{
+		"name": "Haunts",
+		"adjective": ["Haunts"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"uniques": [ "Gain a free [Haunts Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Haunts Village"]
+	},
+	{
+		"name": "Hurnas",
+		"adjective": ["Hurnas"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"uniques": [ "Gain a free [Hurnas Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Hurnas Village"]
+	},
+	{
+		"name": "Jotus",
+		"adjective": ["Jotus"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"uniques": [ "Gain a free [Jotus Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Jotus Village"]
+	},
+	{
+		"name": "Kazanji",
+		"adjective": ["Kazanji"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,0,76],
+		"uniques": [ "Gain a free [Kazanji Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Kazanji Village"]
+	},
+	{
+		"name": "Magtay",
+		"adjective": ["Magtay"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"uniques": [ "Gain a free [Magtay Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Magtay Village"]
+	},
+	{
+		"name": "Nidya",
+		"adjective": ["Nidya"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"uniques": [ "Gain a free [Nidya Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Nidya Village"]
+	},
+	{
+		"name": "Silics",
+		"adjective": ["Silics"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151,125,0],
+		"uniques": [ "Gain a free [Silics Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Silics Village"]
+	},
+	{
+		"name": "Sisters of Mercy",
+		"adjective": ["Sisters"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"uniques": [ "Gain a free [Sisters Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Sisters Village"]
+	},
+	{
+		"name": "Urces",
+		"adjective": ["Urces"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"uniques": [ "Gain a free [Urces Assimilated] [in capital]","Gain a free [Minor Palace] [in capital]"]
+		"cities": ["Urces Village"]
+	},
 	
 		//Barbarian
 	{

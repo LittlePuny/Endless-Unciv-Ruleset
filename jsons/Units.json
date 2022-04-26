@@ -171,7 +171,7 @@
 			"Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast",
 			"[+50]% Strength <when fighting in [Water] tiles>",
 			"May attack when embarked","Normal vision when embarked", "Defense bonus when embarked"
-			"Double movement in [Ocean]","Double movement in [Coast]","Double movement in [Lake]"
+			"Double movement in [Ocean]","Double movement in [Coast]","Double movement in [Lakes]"
 			"[1] Movement point cost to disembark"
 			"Can move after attacking","No defensive terrain bonus",]
 		"attackSound": "metalhit"
@@ -243,7 +243,7 @@
 	// Broken Lords
 	{
 		"replaces": "Starting Unit",
-		"name": "Stalwarts",
+		"name": "Stalwarts 1",
 		"unitType": "Infantry",
 		"uniqueTo": "Broken Lords",
 		"movement": 2,
@@ -251,8 +251,22 @@
 		"cost": 60,
 		"promotions": ["Soul Leech","Shielded","Cavalry Slayer"]
 		"uniques": ["Infantry"]
+		"upgradesTo": "Stalwarts 2",
+		"obsoleteTech": "Age of Glory",
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Stalwarts 2",
+		"unitType": "Infantry",
+		"uniqueTo": "Broken Lords",
+		"movement": 2,
+		"strength": 30,
+		"cost": 60,
+		"promotions": ["Soul Leech","Shielded","Cavalry Slayer"]
+		"uniques": ["Infantry","Only available <if [Age of Glory Unlock] is constructed>"]
+		"attackSound": "metalhit"
+	},
+	
 	{
 		"name": "Ryder",
 		"unitType": "Cavalry",
@@ -674,7 +688,7 @@
 			"Normal vision when embarked", "Defense bonus when embarked"
 			"May attack when embarked"
 			"[+2] Sight <in [Water] tiles>"
-			"Double movement in [Ocean]","Double movement in [Coast]","Double movement in [Lake]"
+			"Double movement in [Ocean]","Double movement in [Coast]","Double movement in [Lakes]"
 			"[1] Movement point cost to disembark"
 			],
 		"promotions": []
@@ -994,7 +1008,7 @@
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+			"Can construct [Customs House]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{

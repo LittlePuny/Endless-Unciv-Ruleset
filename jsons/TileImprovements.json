@@ -1,36 +1,12 @@
 [
 	//Generic
 	{
-		"name": "Food Exploitation",
+		"name": "Land Exploitation",
 		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Age of Discovery",
 		"shortcutKey": "F"
-	},
-	{
-		"name": "Industry Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Age of Discovery",
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Dust Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Age of Discovery",
-		"shortcutKey": "D"
-	},
-	{
-		"name": "Science Exploitation",
-		"terrainsCanBeBuiltOn": ["Grassland","Tundra","Plains","Desert","Dirt Field","Snow","Hill","Forest","Jungle","Fallout","Marsh","Flood plains","Oasis"],
-		"science": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Age of Discovery",
-		"shortcutKey": "S"
 	},
 	
 	// Resource-specific
@@ -154,7 +130,7 @@
 		"uniques": ["Great Improvement"]
 	},
 	{
-		"name": "Customs house",
+		"name": "Customs House",
 		"gold": 4,
 		"uniques": ["Great Improvement"]
 	},
@@ -177,16 +153,13 @@
 		"food": 4,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Food] for each adjacent [Food Exploitation]",
-			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Food] for each adjacent [Land Exploitation]",
 			"[+1 Production] for each adjacent [Alchemist's Furnace]",
 			"[+1 Production] for each adjacent [Smelting Station]",
 			"[+1 Production] for each adjacent [Rare Metal Foundry]",
-			"[+1 Gold] for each adjacent [Dust Exploitation]",
 			"[+1 Gold] for each adjacent [Open-pit Mine]",
 			"[+1 Gold] for each adjacent [Reaping Station]",
 			"[+1 Gold] for each adjacent [Advanced Harvester]",
-			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [City ruins]",
 			"[+2 Science] for each adjacent [Great Improvement]"
@@ -198,16 +171,13 @@
 		"production": 4,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Food] for each adjacent [Food Exploitation]",
-			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Food] for each adjacent [Land Exploitation]",
 			"[+1 Production] for each adjacent [Alchemist's Furnace]",
 			"[+1 Production] for each adjacent [Smelting Station]",
 			"[+1 Production] for each adjacent [Rare Metal Foundry]",
-			"[+1 Gold] for each adjacent [Dust Exploitation]",
 			"[+1 Gold] for each adjacent [Open-pit Mine]",
 			"[+1 Gold] for each adjacent [Reaping Station]",
 			"[+1 Gold] for each adjacent [Advanced Harvester]",
-			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [City ruins]",
 			"[+2 Science] for each adjacent [Great Improvement]"
@@ -219,16 +189,13 @@
 		"gold": 6,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Food] for each adjacent [Food Exploitation]",
-			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Food] for each adjacent [Land Exploitation]",
 			"[+1 Production] for each adjacent [Alchemist's Furnace]",
 			"[+1 Production] for each adjacent [Smelting Station]",
 			"[+1 Production] for each adjacent [Rare Metal Foundry]",
-			"[+1 Gold] for each adjacent [Dust Exploitation]",
 			"[+1 Gold] for each adjacent [Open-pit Mine]",
 			"[+1 Gold] for each adjacent [Reaping Station]",
 			"[+1 Gold] for each adjacent [Advanced Harvester]",
-			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [City ruins]",
 			"[+2 Science] for each adjacent [Great Improvement]"
@@ -240,16 +207,13 @@
 		"science": 8,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Food] for each adjacent [Food Exploitation]",
-			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Food] for each adjacent [Land Exploitation]",
 			"[+1 Production] for each adjacent [Alchemist's Furnace]",
 			"[+1 Production] for each adjacent [Smelting Station]",
 			"[+1 Production] for each adjacent [Rare Metal Foundry]",
-			"[+1 Gold] for each adjacent [Dust Exploitation]",
 			"[+1 Gold] for each adjacent [Open-pit Mine]",
 			"[+1 Gold] for each adjacent [Reaping Station]",
 			"[+1 Gold] for each adjacent [Advanced Harvester]",
-			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [City ruins]",
 			"[+2 Science] for each adjacent [Great Improvement]"
@@ -261,16 +225,13 @@
 		"culture": 6,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Food] for each adjacent [Food Exploitation]",
-			"[+1 Production] for each adjacent [Industry Exploitation]",
+			"[+1 Food] for each adjacent [Land Exploitation]",
 			"[+1 Production] for each adjacent [Alchemist's Furnace]",
 			"[+1 Production] for each adjacent [Smelting Station]",
 			"[+1 Production] for each adjacent [Rare Metal Foundry]",
-			"[+1 Gold] for each adjacent [Dust Exploitation]",
 			"[+1 Gold] for each adjacent [Open-pit Mine]",
 			"[+1 Gold] for each adjacent [Reaping Station]",
 			"[+1 Gold] for each adjacent [Advanced Harvester]",
-			"[+1 Industry] for each adjacent [Science Exploitation]",
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [City ruins]",
 			"[+2 Science] for each adjacent [Great Improvement]"

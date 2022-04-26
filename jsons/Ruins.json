@@ -32,9 +32,9 @@
         "uniques": ["Gain [50]-[100] [Gold]"]
     },
     {
-        "name": "freeAncientTech",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Age of Discovery]"]
+        "name": "freeScience",
+        "notification": "We have discovered the lost technologyies in the ruins! (+40 culture)",
+        "uniques": ["Gain [40] [Science]"]
     },
     {
         "name": "barbCampsRevealed",

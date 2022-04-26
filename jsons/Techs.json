@@ -137,7 +137,7 @@
 				"row": 8,
 				"prerequisites": ["Age of Discovery"],
 				"quote": ""
-				"uniques": ["May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([500])","May buy [Great Admiral] units for [1000] [Gold] [in all coastal cities] at an increasing price ([500])","Gain a free [TPA15] [in capital]"]
+				"uniques": ["May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([500])","Gain a free [TPA15] [in capital]"]
 			},
 			{
 				"name": "Military Science",
@@ -346,24 +346,28 @@
 				"name": "Plow Factory",
 				"row": 2,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC1] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Dust Refinery",
 				"row": 3,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC2] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Dust Alchemy",
 				"row": 4,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC3] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Reaping Station",
 				"row": 5,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC4] [in capital]"]
 				"quote": ""
 			},
 			
@@ -371,24 +375,28 @@
 				"name": "Statistical Methods",
 				"row": 7,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC5] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Fluid Biomechanics",
 				"row": 8,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC6] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Smelting Station"
 				"row": 9,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC7] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Uncommon Alloys"
 				"row": 10,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC8] [in capital]"]
 				"quote": ""
 			},
 		]	
@@ -405,25 +413,28 @@
 				"name": "Bread and Circuses",
 				"row": 2,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["[+1 Happiness] [in all cities]","Gain a free [TPC9] [in capital]"],
 				"quote": ""
 			},
 			{
 				"name": "Public Works",
 				"row": 3,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC10] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Highway Outposts",
 				"row": 4,
 				"prerequisites": ["Age of Enlightenment"],
-				"uniques": ["Improves movement speed on roads"],
+				"uniques": ["Improves movement speed on roads","Gain a free [TPC11] [in capital]"],
 				"quote": ""
 			},
 			{
 				"name": "Bathysphere",
 				"row": 5,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC12] [in capital]"]
 				"quote": ""
 			},
 			
@@ -431,30 +442,35 @@
 				"name": "Artillery Ship",
 				"row": 7,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC13] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Unexpected Allies",
 				"row": 8,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC14] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Borough Government"
 				"row": 9,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC15] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Scyther"
 				"row": 10,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC16] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Guardian of Dust"
 				"row": 11,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["Gain a free [TPC17] [in capital]"]
 				"quote": ""
 			},
 		]	
@@ -489,24 +505,28 @@
 				"name": "Nutrition Chemistry",
 				"row": 2,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD1] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Isolation Sciences",
 				"row": 3,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD2] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Advanced Harvester",
 				"row": 4,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD3] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Anaerobic Microbiology",
 				"row": 5,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD4] [in capital]"]
 				"quote": ""
 			},
 			
@@ -514,30 +534,43 @@
 				"name": "Imperial Funding",
 				"row": 7,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD5] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Industrial Processing",
 				"row": 8,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD6] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Borer's Guild"
 				"row": 9,
 				"prerequisites": ["Age of Industry"],
+				"uniques": [
+					"Double quantity of [Titanium] produced <in cities with a [Mining Rights]>",
+					"Double quantity of [Glassteel] produced <in cities with a [Mining Rights]>",
+					"Double quantity of [Adamantian] produced <in cities with a [Mining Rights]>",
+					"Double quantity of [Palladian] produced <in cities with a [Mining Rights]>",
+					"Double quantity of [Mithrite] produced <in cities with a [Mining Rights]>",
+					"Double quantity of [Hyperium] produced <in cities with a [Mining Rights]>",
+					"Gain a free [TPD7] [in capital]"
+					]
 				"quote": ""
 			},
 			{
 				"name": "Rare Metal Foundry"
 				"row": 10,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD8] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Rare Alloys"
 				"row": 11,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD9] [in capital]"]
 				"quote": ""
 			},
 		]	
@@ -554,6 +587,7 @@
 				"name": "Hospitality Den",
 				"row": 2,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD10] [in capital]"]
 				"quote": ""
 			},
 			{
@@ -561,18 +595,20 @@
 				"row": 3,
 				"prerequisites": ["Age of Industry"],
 				"quote": ""
-				"uniques": ["Gain a free [AP2] [in capital]"]
+				"uniques": ["Gain a free [AP2] [in capital]","Gain a free [TPD11] [in capital]"]
 			},
 			{
 				"name": "Endless Mechanisms",
 				"row": 4,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD12] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Cargo Docks",
 				"row": 5,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD13] [in capital]"]
 				"quote": ""
 			},
 			
@@ -581,17 +617,20 @@
 				"row": 7,
 				"prerequisites": ["Age of Industry"],
 				"quote": ""
+				"uniques": ["[5] Unit Supply","[1] Unit Supply per [5] population [in all cities]","Gain a free [TPD14] [in capital]"]
 			},
 			{
-				"name": "Civic Industries",
+				"name": "Civic Instructions",
 				"row": 8,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD15] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Mercenary Corps"
 				"row": 9,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["[10]% Strength <for [Minor] units>","Gain a free [TPD16] [in capital]"]
 				"quote": ""
 			},
 			{
@@ -599,17 +638,20 @@
 				"row": 10,
 				"prerequisites": ["Age of Industry"],
 				"quote": ""
+				"uniques": ["[+10]% Strength <when defending>","Gain a free [TPD17] [in capital]"]
 			},
 			{
 				"name": "Guardian of Earth"
 				"row": 11,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD18] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Guardian of Fire"
 				"row": 12,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Gain a free [TPD19] [in capital]"]
 				"quote": ""
 			},
 		]	
@@ -644,24 +686,28 @@
 				"name": "Improved Dust Alchemies",
 				"row": 2,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE1] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Town Criers",
 				"row": 3,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE2] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Imperial News Network",
 				"row": 4,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE3] [in capital]"]
 				"quote": ""
 			},
 			{
-				"name": "Dust Enhanced Buildings",
+				"name": "Dust-Enhanced Buildings",
 				"row": 5,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE4] [in capital]"]
 				"quote": ""
 			},
 			
@@ -669,24 +715,28 @@
 				"name": "Scientific Specialization",
 				"row": 7,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE5] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Advanced Quary",
 				"row": 8,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE6] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Volcanic Leecher"
 				"row": 9,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE7] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Marvelous Alloys"
 				"row": 10,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE8] [in capital]"]
 				"quote": ""
 			},
 		]	
@@ -703,24 +753,28 @@
 				"name": "State-Approved Theather",
 				"row": 2,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["[+1 Happiness] [in all cities]","Gain a free [TPE9] [in capital]"],
 				"quote": ""
 			},
 			{
 				"name": "Modernized Administrator",
 				"row": 3,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE10] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Arts Council",
 				"row": 4,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE11] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Enlightened Trade",
 				"row": 5,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE12] [in capital]"]
 				"quote": ""
 			},
 			
@@ -728,30 +782,35 @@
 				"name": "Military Reserve",
 				"row": 7,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE13] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Innoculation Station",
 				"row": 8,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE14] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Security Theory"
 				"row": 9,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE15] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Guardian of Air"
 				"row": 10,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE16] [in capital]"]
 				"quote": ""
 			},
 			{
 				"name": "Guardian of Water"
 				"row": 11,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["Gain a free [TPE17] [in capital]"]
 				"quote": ""
 			},
 		]	
@@ -787,7 +846,7 @@
 				"row": 1,
 				"prerequisites": ["End of Ages"],
 				"quote": ""
-				"uniques": ["[+100]% growth [in all cities]"]
+				"uniques": ["[+50]% [Food]"]
 			},
 			{
 				"name": "Dust-Driven Distillery",
